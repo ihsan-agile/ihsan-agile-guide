@@ -1,0 +1,30 @@
+name: Report Documentation Issue
+description: Report errors, broken links, or unclear content
+title: "[BUG] "
+labels: ["bug", "documentation"]
+body:
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue Description
+      description: What's wrong? Where is it?
+      placeholder: |
+        Page 15 of the Guide references Appendix D but should be Appendix C
+    validations:
+      required: true
+      
+  - type: textarea
+    id: expected
+    attributes:
+      label: What Should It Say/Do?
+      description: What's the correct information or behavior?
+      
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: Which file or page?
+      placeholder: |
+        - Ihsan Agile Guide PDF, page 15
+        - README.md, line 42
+        - Website: ihsanagile.org/guide
