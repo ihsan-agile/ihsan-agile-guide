@@ -1,122 +1,166 @@
-# The Ihsan Agile Guide
+# Ihsan Agile Framework
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17794838.svg)](https://doi.org/10.5281/zenodo.17794838)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-[![Version](https://img.shields.io/badge/version-1.0-blue.svg)](https://github.com/ihsan-agile/ihsan-agile-guide/releases/tag/v1.0)
 
 **Embedding Islamic Values in Agile Delivery**
 
-A framework for Muslim-led teams and organisations to use Agile methodologies as a vehicle for *iḥsān* (excellence with God-consciousness).
+## What is Ihsan Agile?
 
----
+Ihsan Agile overlays existing Agile methods (Scrum, Kanban, SAFe) with principles from the Qur'an and Sunnah, helping teams operationalize Islamic values in daily software delivery.
 
-## 📖 About
+**The Innovation**: Bridges the implementation gap between organizational values and everyday operational decisions through systematic practices and the Ihsan Agile Facilitator (IAF) role.
 
-Ihsan Agile overlays existing Agile methods (Scrum, Kanban, SAFe) with principles drawn from the Qur'an and Sunnah. It transforms Agile delivery practices into a form of *'ibādah* (worship) by embedding *niyyah* (intention), *iḥsān* (excellence with God-consciousness), and *shūrā* (consultation) into team workflows and organisational practices.
+## Three Pillars
 
-This framework helps Muslim-led teams align daily operational decisions with Islamic values through:
-- **Three Pillars**: Niyyah (Intention), Iḥsān (Excellence with God-consciousness), Maṣlaḥah (Public Good)
-- **Five Core Principles**: Taqwā, Stewardship, Shūrā, Service & Justice, Continuous Growth
-- **Ihsan Agile Facilitator Role**: Embedding values into daily Agile ceremonies
+1. **Niyyah** (نِيَّة) - Intention: Clarify purpose and higher aim before building
+2. **Iḥsān** (إِحْسَان) - Excellence with God-consciousness: Work as if Allah sees every detail
+3. **Maṣlaḥah** (مَصْلَحَة) - Public Good: Orient toward genuine benefit, not output for its own sake
 
----
+## Five Core Principles
 
-## 📥 Download
+1. **Taqwā** - God-consciousness in all actions
+2. **Amānah & Khilāfah** - Stewardship and trusteeship
+3. **Shūrā** - Consultation and collective wisdom
+4. **ʿIbādah & ʿAdl** - Service as worship and justice
+5. **Tazkiyah** - Continuous growth through reflection
 
-**[Download the Guide (PDF)](https://github.com/ihsan-agile/ihsan-agile-guide/raw/main/Ihsan%20Agile%20Guide%20(Version%201.0%202025).pdf)**
+## Quick Start
 
-**[View on Zenodo](https://doi.org/10.5281/zenodo.17794838)** (Permanent academic archive)
+### For Teams
+1. Read the [Ihsan Agile Guide](./Ihsan_Agile_Guide_Version_1_0_2025.pdf) (33 pages)
+2. Visit [ihsanagile.org](https://ihsanagile.org) for comprehensive resources
+3. Start with **Niyyah check-ins** at your next planning session (2-3 minutes)
+4. Join the [pilot program](https://ihsanagile.org/pilot) for guided implementation
 
----
+### For Contributors
+1. Review our [Contributing Guidelines](https://ihsanagile.org/community)
+2. Read the framework documentation
+3. Open an Issue, start a Discussion, or submit a Pull Request
+4. See [CONTRIBUTING.md](CONTRIBUTING.md) for GitHub-specific guidance
 
-## 🎯 Who Is This For?
+## Repository Contents
+```
+ihsan-agile-guide/
+├── Ihsan_Agile_Guide_Version_1_0_2025.pdf  # Complete framework (v1.0)
+├── README.md                                # This file
+├── CONTRIBUTING.md                          # How to contribute
+├── CODE_OF_CONDUCT.md                       # Community standards
+├── ROADMAP.md                               # Development roadmap
+├── LICENSE                                  # CC BY-SA 4.0
+└── [planned directories]
+    ├── templates/                           # Practical implementation tools
+    ├── examples/                            # Case studies and scenarios
+    └── translations/                        # Multilingual versions
+```
 
-- Islamic fintech startups building products for Muslim communities
-- Muslim software development teams within larger organisations
-- Islamic charities and NGOs using Agile for campaigns or service delivery
-- Muslim tech companies committed to values-based development
-- Any organisation seeking to align Agile delivery with Islamic ethics
+## Who This Is For
 
----
+- **Islamic fintech startups** building products for Muslim communities
+- **Muslim software development teams** within larger organizations
+- **Islamic charities and NGOs** using Agile for delivery
+- **Values-driven tech organizations** seeking ethical frameworks
+- **Muslim professionals** wanting work to reflect Islamic principles
 
-## 📚 What's Inside
+## Key Practices
 
-- **Foundation**: The Three Pillars and Five Core Principles
-- **Practical Implementation**: How to integrate Ihsan Agile into Scrum, Kanban, and SAFe
-- **The IAF Role**: How the Ihsan Agile Facilitator embeds values into ceremonies
-- **Core Practices**: Niyyah check-ins, Muhāsabah retrospectives, Stakeholder Barakah Reviews
-- **Real Scenarios**: Worked examples from Islamic fintech and charitable sectors
-- **Getting Started**: Phased adoption approach and starter checklists
-- **Scaling Guidance**: Multi-team and organisational implementation
+The framework introduces seven core practices:
+1. **Niyyah Check-ins** - Intention-setting at planning
+2. **Ethical Completeness** - Expanding Definition of Done
+3. **Shūrā as Decision Practice** - Structured consultation
+4. **Stewardship & Mīzān** - Sustainable pace and waste reduction
+5. **Muhāsabah Retrospectives** - Ethical reflection
+6. **Stakeholder Barakah Reviews** - Impact assessment with stakeholders
+7. **Continuous Niyyah Alignment** - Regular purpose reconnection
 
----
+## The Ihsan Agile Facilitator (IAF)
 
-## 🤝 Get Involved
+A companion-coach role that helps bridge the implementation gap by:
+- Facilitating Niyyah check-ins at planning cycles
+- Transforming retrospectives into Muhāsabah sessions
+- Ensuring Definition of Done includes justice and stewardship
+- Conducting Stakeholder Barakah Reviews
+- Supporting Shūrā in decision-making
 
-### Pilot Organisations Wanted
+The IAF complements existing Agile roles (Scrum Master, Product Owner, RTE) rather than replacing them.
 
-We're seeking early adopter organisations to pilot the Ihsan Agile Framework. Ideal candidates:
-- Islamic fintech startups or Muslim-led tech companies
-- Islamic charities using Agile methodologies
-- Muslim software teams within larger organisations
-- Commitment to 2-3 sprint cycles minimum
+## Academic Grounding
 
-**Interested?** Email: [getinvolved@ihsanagile.org](mailto:getinvolved@ihsanagile.org)
+Published with DOI: [10.5281/zenodo.17794838](https://doi.org/10.5281/zenodo.17794838)
 
-### Community
-
-- **Website**: [ihsanagile.org](https://ihsanagile.org)
-- **Contact**: [getinvolved@ihsanagile.org](mailto:getinvolved@ihsanagile.org)
-
----
-
-## 📜 License
-
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
-
-**You are free to:**
-- Share — copy and redistribute the material
-- Adapt — remix, transform, and build upon the material for any purpose
-
-**Under these terms:**
-- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made
-- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license
-
----
-
-## 📖 Citation
+**Citation:**
 ```bibtex
 @techreport{wallace-hare2025ihsan,
-  author       = {Wallace-Hare, David},
-  title        = {The Ihsan Agile Guide: Embedding Islamic Values in Agile Delivery},
-  year         = {2025},
-  publisher    = {Zenodo},
-  version      = {1.0},
-  doi          = {10.5281/zenodo.17794838},
-  url          = {https://doi.org/10.5281/zenodo.17794838}
+  author = {Wallace-Hare, David},
+  title = {The Ihsan Agile Guide: Embedding Islamic Values in Agile Delivery},
+  year = {2025},
+  institution = {PlaceBased Agile},
+  doi = {10.5281/zenodo.17794838},
+  url = {https://doi.org/10.5281/zenodo.17794838},
+  note = {Version 1.0}
 }
 ```
 
-**APA Format:**
-```
-Wallace-Hare, D. (2025). The Ihsan Agile Guide: Embedding Islamic Values in Agile Delivery (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.17794838
-```
+## Current Status
+
+**Version 1.0** published December 3, 2025
+- 150+ downloads in first 10 days
+- Active pilot program recruitment
+- Community development phase
+- Planning CIC governance transition (early 2026)
+
+See [ROADMAP.md](ROADMAP.md) for detailed development timeline.
+
+## Contributing
+
+We welcome contributions as *shirkah fī al-khayr* (partnership in good):
+
+- **Pilot experiences**: Implementation stories and lessons learned
+- **Practice refinements**: Improvements based on real use
+- **Translations**: Make framework accessible to more communities
+- **Resources**: Templates, guides, training materials
+- **Scholarship**: Islamic or Agile expertise to strengthen foundations
+
+**Full guidelines**: [ihsanagile.org/community](https://ihsanagile.org/community)  
+**GitHub process**: [CONTRIBUTING.md](CONTRIBUTING.md)
+
+Contributors will be acknowledged in documentation. Significant contributions may be recognized as co-authors in future versions.
+
+## Community
+
+- **Website**: [ihsanagile.org](https://ihsanagile.org)
+- **Email**: getinvolved@ihsanagile.org
+- **Pilot Program**: [Apply here](https://ihsanagile.org/pilot)
+
+## License
+
+[Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+You are free to:
+- **Share**: Copy and redistribute in any format
+- **Adapt**: Remix, transform, and build upon the material
+- **Commercial use**: Use for commercial purposes
+
+Under these terms:
+- **Attribution**: Give appropriate credit
+- **ShareAlike**: Distribute adaptations under the same license
+- **No additional restrictions**: Cannot apply legal or technological measures that restrict others
+
+## Acknowledgments
+
+Alhamdulillah for the guidance found in the Qur'an and Sunnah.
+
+Special thanks to early conversation partners, pilot organizations, scholars providing guidance, and the Muslim tech community for inspiration and feedback.
 
 ---
 
-## 🙏 Acknowledgments
+Bismillāhir-Raḥmānir-Raḥīm  
+*In the name of Allah, the Most Gracious, the Most Merciful*
 
-Built on the wisdom of Islamic scholarship, the foundation of Agile frameworks, and the pioneering work of the Muslim Tech Manifesto. Special thanks to Muslim organisations who have been early conversation partners, scholars who have provided guidance, and the Agile community for creating frameworks that can be enriched.
+**"What is Ihsan (perfection)?" Allah's Messenger (ﷺ) replied, "To worship Allah as if you see Him, and if you cannot achieve this state of devotion then you must consider that He is looking at you."**  
+*(Ṣaḥīḥ al-Bukhārī 50)*
 
----
+May this work be a means of drawing closer to Allah, serving His creation with excellence, and achieving true success (*falāḥ*) in this world and the next.
 
-## 📌 Version History
-
-- **v1.0** (December 2025) - Initial release
-
----
-
-**May this work be a source of benefit for the ummah and all who seek to align their daily work with higher purpose.**
-
-**Bismillāhir-Raḥmānir-Raḥīm**
+Āmīn.
 ```
