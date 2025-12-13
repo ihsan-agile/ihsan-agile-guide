@@ -1,0 +1,38 @@
+name: Request Clarification
+description: Ask for clarification on framework concepts or practices
+title: "[QUESTION] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask questions about Ihsan Agile concepts, practices, or implementation.
+        
+  - type: dropdown
+    id: topic-area
+    attributes:
+      label: Topic Area
+      options:
+        - Islamic Concepts (Niyyah, Ihsan, Maslahah, etc.)
+        - Core Principles (Taqwa, Shura, Tazkiyah, etc.)
+        - Practices (Check-ins, Retrospectives, Reviews, etc.)
+        - IAF Role
+        - Implementation / Getting Started
+        - Integration with Existing Methods
+        - Other
+    validations:
+      required: true
+      
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: What needs clarification?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: context
+    attributes:
+      label: Context (Optional)
+      description: What prompted this question? What have you tried?
