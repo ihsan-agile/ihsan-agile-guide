@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Full Contributing Guidelines
+    url: https://ihsanagile.org/community
+    about: Comprehensive contribution guidance including Islamic soundness criteria
+  - name: Pilot Program Application
+    url: https://ihsanagile.org/pilot
+    about: Apply to pilot Ihsan Agile with support
+  - name: Email Contact
+    url: mailto:getinvolved@ihsanagile.org
+    about: Direct questions or private feedback
