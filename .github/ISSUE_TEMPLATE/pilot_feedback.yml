@@ -1,0 +1,96 @@
+name: Pilot Feedback
+description: Share your experience piloting Ihsan Agile
+title: "[PILOT] "
+labels: ["pilot-feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        JazakAllahu khayran for piloting Ihsan Agile and sharing your experience.
+        
+  - type: input
+    id: organization
+    attributes:
+      label: Organization Type
+      description: E.g., Islamic fintech, charity, tech team, social enterprise
+      placeholder: Islamic fintech startup
+    validations:
+      required: true
+      
+  - type: input
+    id: team-size
+    attributes:
+      label: Team Size
+      placeholder: "5-7 people"
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: agile-method
+    attributes:
+      label: Agile Method Used
+      options:
+        - Scrum
+        - Kanban
+        - Scrumban
+        - SAFe
+        - Other
+    validations:
+      required: true
+      
+  - type: input
+    id: duration
+    attributes:
+      label: Pilot Duration
+      placeholder: "3 sprints (6 weeks)"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: what-worked
+    attributes:
+      label: What Worked Well
+      description: Practices that resonated with your team
+      placeholder: |
+        - Niyyah check-ins helped clarify purpose
+        - Muhāsabah retrospectives deepened team culture
+    validations:
+      required: true
+      
+  - type: textarea
+    id: challenges
+    attributes:
+      label: Challenges Encountered
+      description: Difficulties or tensions that arose
+      placeholder: |
+        - Initially felt awkward introducing spiritual language
+        - Needed to adapt DoD criteria for our context
+    validations:
+      required: true
+      
+  - type: textarea
+    id: adaptations
+    attributes:
+      label: Adaptations Made
+      description: How you modified practices for your context
+      placeholder: |
+        - Simplified niyyah prompts for non-Muslim team members
+        - Combined IAF with Scrum Master role initially
+        
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact Observed
+      description: Changes in team culture, decisions, or outcomes
+      placeholder: |
+        - Team began raising ethical considerations without prompting
+        - Better stakeholder relationships through Barakah Reviews
+        
+  - type: textarea
+    id: recommendations
+    attributes:
+      label: Recommendations
+      description: Suggestions for improving the framework
+      placeholder: |
+        - Add more examples for diverse organizational contexts
+        - Provide shorter "getting started" checklist
