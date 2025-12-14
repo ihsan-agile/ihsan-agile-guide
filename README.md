@@ -7,9 +7,11 @@
 
 ## What is Ihsan Agile?
 
-Ihsan Agile overlays existing Agile methods (Scrum, Kanban, SAFe) with principles from the Qur'an and Sunnah, helping teams operationalize Islamic values in daily software delivery.
+Ihsan Agile helps Muslim-led teams embed Islamic values into the Agile ceremonies and practices they already use. It overlays existing Agile methodologies (Scrum, Kanban, SAFe) with principles from the Qur'an and Sunnah.
 
-**The Innovation**: Bridges the implementation gap between organizational values and everyday operational decisions through systematic practices and the Ihsan Agile Facilitator (IAF) role.
+As Muslim-led organisations grow and scale, they naturally ask: **how do we translate Islamic principles into the daily Agile practices our teams already use?** Ihsan Agile provides a practical answer through systematic practices and the Ihsan Agile Facilitator role.
+
+**The approach:** Enriches what teams already do, rather than replacing it—making values operational, systematic, and sustainable.
 
 ## Three Pillars
 
@@ -28,43 +30,56 @@ Ihsan Agile overlays existing Agile methods (Scrum, Kanban, SAFe) with principle
 ## Quick Start
 
 ### For Teams
-1. Read the [Ihsan Agile Guide](./Ihsan_Agile_Guide_Version_1_0_2025.pdf) (33 pages)
+
+1. Read the [Ihsan Agile Guide](/Ihsan_Agile_Guide_Version_1_0_2025.pdf) (33 pages)
 2. Visit [ihsanagile.org](https://ihsanagile.org) for comprehensive resources
 3. Start with **Niyyah check-ins** at your next planning session (2-3 minutes)
 4. Join the [pilot program](https://ihsanagile.org/pilot) for guided implementation
 
 ### For Contributors
+
 1. Review our [Contributing Guidelines](https://ihsanagile.org/community)
 2. Read the framework documentation
-3. Open an Issue, start a Discussion, or submit a Pull Request
-4. See [CONTRIBUTING.md](CONTRIBUTING.md) for GitHub-specific guidance
+3. Open an [Issue](https://github.com/ihsan-agile/ihsan-agile-guide/issues), start a [Discussion](https://github.com/ihsan-agile/ihsan-agile-guide/discussions), or submit a Pull Request
+4. See [CONTRIBUTING.md](/CONTRIBUTING.md) for GitHub-specific guidance
 
 ## Repository Contents
+
 ```
 ihsan-agile-guide/
+├── .github/
+│   └── ISSUE_TEMPLATE/           # Issue templates for feedback and questions
+├── templates/                     # Practical implementation tools
+│   ├── README.md
+│   ├── niyyah-checkin-template.md
+│   ├── ethical-dod-checklist.md
+│   └── muhasabah-retrospective-template.md
+├── examples/                      # Case studies and pilot documentation
+│   ├── README.md
+│   └── case-study-template.md
 ├── Ihsan_Agile_Guide_Version_1_0_2025.pdf  # Complete framework (v1.0)
-├── README.md                                # This file
-├── CONTRIBUTING.md                          # How to contribute
-├── CODE_OF_CONDUCT.md                       # Community standards
-├── ROADMAP.md                               # Development roadmap
-├── LICENSE                                  # CC BY-SA 4.0
-└── [planned directories]
-    ├── templates/                           # Practical implementation tools
-    ├── examples/                            # Case studies and scenarios
-    └── translations/                        # Multilingual versions
+├── README.md                      # This file
+├── CONTRIBUTING.md                # How to contribute
+├── CODE_OF_CONDUCT.md             # Community standards
+├── ROADMAP.md                     # Development roadmap
+└── LICENSE                        # CC BY-SA 4.0
+
+Coming soon:
+└── translations/                  # Multilingual versions (2026)
 ```
 
 ## Who This Is For
 
-- **Islamic fintech startups** building products for Muslim communities
-- **Muslim software development teams** within larger organizations
-- **Islamic charities and NGOs** using Agile for delivery
-- **Values-driven tech organizations** seeking ethical frameworks
-- **Muslim professionals** wanting work to reflect Islamic principles
+* **Islamic fintech startups** building products for Muslim communities
+* **Muslim software development teams** within larger organizations
+* **Islamic charities and NGOs** using Agile for delivery
+* **Values-driven tech organizations** seeking ethical frameworks
+* **Muslim professionals** wanting work to reflect Islamic principles
 
 ## Key Practices
 
 The framework introduces seven core practices:
+
 1. **Niyyah Check-ins** - Intention-setting at planning
 2. **Ethical Completeness** - Expanding Definition of Done
 3. **Shūrā as Decision Practice** - Structured consultation
@@ -75,12 +90,13 @@ The framework introduces seven core practices:
 
 ## The Ihsan Agile Facilitator (IAF)
 
-A companion-coach role that helps bridge the implementation gap by:
-- Facilitating Niyyah check-ins at planning cycles
-- Transforming retrospectives into Muhāsabah sessions
-- Ensuring Definition of Done includes justice and stewardship
-- Conducting Stakeholder Barakah Reviews
-- Supporting Shūrā in decision-making
+A companion-coach role that helps embed Islamic values into daily Agile practice by:
+
+* Facilitating Niyyah check-ins at planning cycles
+* Transforming retrospectives into Muhāsabah sessions
+* Ensuring Definition of Done includes justice and stewardship
+* Conducting Stakeholder Barakah Reviews
+* Supporting Shūrā in decision-making
 
 The IAF complements existing Agile roles (Scrum Master, Product Owner, RTE) rather than replacing them.
 
@@ -89,6 +105,7 @@ The IAF complements existing Agile roles (Scrum Master, Product Owner, RTE) rath
 Published with DOI: [10.5281/zenodo.17794838](https://doi.org/10.5281/zenodo.17794838)
 
 **Citation:**
+
 ```bibtex
 @techreport{wallace-hare2025ihsan,
   author = {Wallace-Hare, David},
@@ -104,47 +121,51 @@ Published with DOI: [10.5281/zenodo.17794838](https://doi.org/10.5281/zenodo.177
 ## Current Status
 
 **Version 1.0** published December 3, 2025
-- 150+ downloads in first 10 days
-- Active pilot program recruitment
-- Community development phase
-- Planning CIC governance transition (early 2026)
 
-See [ROADMAP.md](ROADMAP.md) for detailed development timeline.
+* 150+ downloads in first 10 days
+* Active pilot program recruitment
+* Community development phase
+* Planning CIC governance transition (early 2026)
+
+See [ROADMAP.md](/ROADMAP.md) for detailed development timeline.
 
 ## Contributing
 
 We welcome contributions as *shirkah fī al-khayr* (partnership in good):
 
-- **Pilot experiences**: Implementation stories and lessons learned
-- **Practice refinements**: Improvements based on real use
-- **Translations**: Make framework accessible to more communities
-- **Resources**: Templates, guides, training materials
-- **Scholarship**: Islamic or Agile expertise to strengthen foundations
+* **Pilot experiences**: Implementation stories and lessons learned
+* **Practice refinements**: Improvements based on real use
+* **Translations**: Make framework accessible to more communities
+* **Resources**: Templates, guides, training materials
+* **Scholarship**: Islamic or Agile expertise to strengthen foundations
 
 **Full guidelines**: [ihsanagile.org/community](https://ihsanagile.org/community)  
-**GitHub process**: [CONTRIBUTING.md](CONTRIBUTING.md)
+**GitHub process**: [CONTRIBUTING.md](/CONTRIBUTING.md)
 
 Contributors will be acknowledged in documentation. Significant contributions may be recognized as co-authors in future versions.
 
 ## Community
 
-- **Website**: [ihsanagile.org](https://ihsanagile.org)
-- **Email**: getinvolved@ihsanagile.org
-- **Pilot Program**: [Apply here](https://ihsanagile.org/pilot)
+* **Website**: [ihsanagile.org](https://ihsanagile.org)
+* **Discussions**: [GitHub Discussions](https://github.com/ihsan-agile/ihsan-agile-guide/discussions)
+* **Email**: [getinvolved@ihsanagile.org](mailto:getinvolved@ihsanagile.org)
+* **Pilot Program**: [Apply here](https://ihsanagile.org/pilot)
 
 ## License
 
 [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 You are free to:
-- **Share**: Copy and redistribute in any format
-- **Adapt**: Remix, transform, and build upon the material
-- **Commercial use**: Use for commercial purposes
+
+* **Share**: Copy and redistribute in any format
+* **Adapt**: Remix, transform, and build upon the material
+* **Commercial use**: Use for commercial purposes
 
 Under these terms:
-- **Attribution**: Give appropriate credit
-- **ShareAlike**: Distribute adaptations under the same license
-- **No additional restrictions**: Cannot apply legal or technological measures that restrict others
+
+* **Attribution**: Give appropriate credit
+* **ShareAlike**: Distribute adaptations under the same license
+* **No additional restrictions**: Cannot apply legal or technological measures that restrict others
 
 ## Acknowledgments
 
@@ -158,9 +179,8 @@ Bismillāhir-Raḥmānir-Raḥīm
 *In the name of Allah, the Most Gracious, the Most Merciful*
 
 **"What is Ihsan (perfection)?" Allah's Messenger (ﷺ) replied, "To worship Allah as if you see Him, and if you cannot achieve this state of devotion then you must consider that He is looking at you."**  
-*(Ṣaḥīḥ al-Bukhārī 50)*
+*(Ṣaḥīḥ al-Bukhārī 50, sunnah.com)*
 
 May this work be a means of drawing closer to Allah, serving His creation with excellence, and achieving true success (*falāḥ*) in this world and the next.
 
 Āmīn.
-```
