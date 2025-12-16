@@ -12,30 +12,15 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-     - uses: actions/checkout@v4
-  with:
-    ref: badge-data
+      - uses: actions/checkout@v4
+        with:
+          ref: badge-data
 
       - name: Fetch Zenodo downloads and update badge.json
         run: |
           RECORD_ID="17794838"
           API="https://zenodo.org/api/records/${RECORD_ID}"
 
-          DL=$(curl -sL "$API" | python -c "import sys,json; d=json.load(sys.stdin); print(d.get('stats',{}).get('unique_downloads', d.get('stats',{}).get('downloads',0)))")
+          DL=$(curl -sL "$API" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('stats',{}).get('unique_downloads', d.get('stats',{}).get('downloads',0)))")
 
           cat > badge.json <<EOF
-          {
-            "schemaVersion": 1,
-            "label": "Ihsan Agile Guide downloads on Zenodo",
-            "message": "${DL}",
-            "color": "blue"
-          }
-          EOF
-
-      - name: Commit and push if changed
-        run: |
-          git config user.name "badge-bot"
-          git config user.email "badge-bot@users.noreply.github.com"
-          git add badge.json
-          git commit -m "Update Zenodo downloads badge" || exit 0
-          git push origin badge-data
