@@ -22,7 +22,7 @@ We're currently in the **learning phase**, discovering what works in practice.
 - [ ] Create case study template
 - [ ] Refine IAF role based on practice
 - [ ] Build template library from pilot experiences
-- [ ] Transition to Community Interest Company governance (early 2026)
+- [ ] Design and evaluate a long-term stewardship and governance model (with CIC as a leading candidate), informed by pilot outcomes and community consultation
 
 **What we'll learn:**
 - Which practices resonate most with different contexts
@@ -73,7 +73,7 @@ We're currently in the **learning phase**, discovering what works in practice.
 **Focus: Long-term sustainability**
 
 ### Q1 2027
-- [ ] Mature CIC governance model with partners
+- [ ] Formalise a community-governed stewardship model with partners (CIC as a likely structure)
 - [ ] Launch certification beta program
 - [ ] Establish regional community chapters
 
