@@ -119,6 +119,19 @@ Published with DOI: [10.5281/zenodo.17794838](https://doi.org/10.5281/zenodo.177
   note = {Version 1.0}
 }
 ```
+## Independent Evaluation
+
+The Ihsan Agile GitHub repository — which contains the full Ihsan Agile Guide and supporting artefacts — was independently evaluated by the Muslim Open Source Foundation (MOSF) and recognised as a **Model Repository (67/70)**.
+
+In their evaluation, MOSF wrote:
+
+> “It represents a model repository for Islamic open-source frameworks.”
+
+The evaluation assessed repository governance, licensing, documentation quality, community readiness, and the systematic integration of Islamic ethical principles into Agile delivery practices.
+
+Read the full evaluation: https://www.muslimopensource.org/evaluations/ihsan-agile-guide
+
+```
 
 ## Current Status
 
