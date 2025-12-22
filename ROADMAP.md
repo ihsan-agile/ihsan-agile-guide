@@ -17,7 +17,7 @@ This roadmap reflects our current thinking but is shaped by community needs. As 
 
 We're currently in the **learning phase**, discovering what works in practice.
 
-- [ ] 3-5 organizations piloting framework for 2-3 sprint trials
+- [ ] Seek and onboard a small cohort (approximately 3–5 organisations) for initial pilot trials (2–3 sprints each)
 - [ ] Document implementation challenges and adaptations
 - [ ] Create case study template
 - [ ] Refine IAF role based on practice
