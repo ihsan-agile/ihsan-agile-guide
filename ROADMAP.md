@@ -9,7 +9,7 @@ This roadmap reflects our current thinking but is shaped by community needs. As 
 - ✅ Website with comprehensive resources
 - ✅ Academic publication (DOI: 10.5281/zenodo.17794838)
 - ✅ GitHub repository established
-- ✅ Pilot program launched
+- ✅ Pilot programme recruitment launched
 - ✅ CC BY-SA 4.0 licensing
 
 ## Q1 2026 - Pilot Phase
@@ -52,7 +52,7 @@ We're currently in the **learning phase**, discovering what works in practice.
 - [ ] Establish translation review process with native speakers
 - [ ] Support community translation efforts with documentation and resources
 - [ ] Workshop format development
-- [ ] Second pilot cohort begins
+- [ ] Invite a second pilot cohort, subject to learning from initial pilots
 
 **Translation priorities will be guided by:**
 - Pilot organization locations
@@ -112,7 +112,7 @@ The framework belongs to the ummah, not to any individual.
 
 ## How You Can Influence This Roadmap
 
-**Pilot organizations:** Your experiences directly inform framework refinements - join the [pilot program](https://ihsanagile.org/pilot)
+**Pilot organisations:** Your experiences will directly inform framework refinements - join the [pilot program](https://ihsanagile.org/pilot)
 
 **Contributors:** New practices, resources, and translations accelerate accessibility - see [CONTRIBUTING.md](CONTRIBUTING.md)
 
