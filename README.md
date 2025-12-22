@@ -131,8 +131,6 @@ The evaluation assessed repository governance, licensing, documentation quality,
 
 Read the full evaluation: https://www.muslimopensource.org/evaluations/ihsan-agile-guide
 
-```
-
 ## Current Status
 
 **Version 1.0** published December 3, 2025
