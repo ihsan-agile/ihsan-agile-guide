@@ -135,7 +135,7 @@ Read the full evaluation: https://www.muslimopensource.org/evaluations/ihsan-agi
 
 **Version 1.0** published December 3, 2025
 
-* 150+ downloads on Zenodo in first 10 days since publication, 296 in first 20 days (by December 22, 2025) 
+* 150+ downloads on Zenodo in first 10 days since publication, 300 in first 20 days (by December 22, 2025) 
 * Active pilot program recruitment
 * Community development phase
 * Designing and evaluating a long-term stewardship and governance model (with a CIC as a leading candidate), informed by pilot outcomes and community consultation
