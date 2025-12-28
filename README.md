@@ -58,7 +58,7 @@ ihsan-agile-guide/
 │   ├── README.md
 │   └── case-study-template.md
 ├── Ihsan_Agile_Guide_Version_1_0_2025.pdf  # Complete framework (v1.0)
-├── technical-debt-register.md     # Governance resource: track and disclose technical debt
+├── technical-uncertainty-register.md     # Governance resource: track and disclose technical uncertainty
 ├── gharar-assessment-checklist.md # Governance resource: assess uncertainty and disclosure risk
 ├── README.md                      # This file
 ├── CONTRIBUTING.md                # How to contribute
