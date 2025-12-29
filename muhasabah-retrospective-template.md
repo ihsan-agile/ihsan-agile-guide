@@ -16,6 +16,9 @@ The Ihsan Agile Facilitator (IAF) or Scrum Master guides this practice.
 
 In Ihsan Agile, retrospectives become **muhāsabah** - examining not just *what* we built and *how* we built it, but *why* we built it, *who* we served, and *who we became* in the process.
 
+Where technical limitations or risks are surfaced during this retrospective, they should also be recorded in the Technical Uncertainty Register (technical-uncertainty-register.md); muhāsabah examines whether any of those uncertainties became ethically problematic through non-disclosure, lack of consent, or unjust transfer of harm.
+
+
 ---
 
 ## Scope and Accountability (Important Clarification)
@@ -172,14 +175,37 @@ This retrospective embodies that cycle at the team level.
 - "Did we check accessibility, or assume it was fine?"
 - "Did we validate benefit (maṣlaḥah), or assume our work was valuable without checking?"
 
-**Gharar (uncertainty) check:**
-- "Did we reduce uncertainty through validation, or build based on assumptions?"
-- "Did we consult those affected, or decide for them?"
+**Gharar (harmful uncertainty) check:**
 
-**Ethical debt check:**
-- "Did we create any ethical debt this sprint?"
-- "Did we skip any values-based criteria to ship faster?"
-- "What shortcuts did we take that we're rationalizing?"
+Not all uncertainty is unethical or avoidable.
+This check examines whether uncertainty became harmful because it was
+undisclosed, misunderstood, or unfairly transferred to others.
+
+Reflect honestly:
+
+- "Where did we rely on assumptions instead of validation?"
+- "Who might be surprised by limitations in what we shipped?"
+- "Did we consult those affected, or decide on their behalf?"
+- "Where might ignorance (jahalah) persist for users or future maintainers?"
+
+The concern is not the presence of uncertainty, but whether it was allowed to
+persist in a way that creates injustice or harm.
+
+**Ethical risk and undisclosed uncertainty check:**
+
+Ethical risk here does not mean imperfection or moving fast.
+It refers to situations where uncertainty, risk, or burden was introduced in a way that others may now bear without full knowledge, consent, or recourse.
+
+Ask:
+
+- "Did we introduce uncertainty that others will have to live with?"
+- "Do those affected know this risk exists?"
+- "Did documentation substitute for disclosure or consent where more was required?"
+- "What shortcuts are we currently rationalising?"
+
+Recording an issue does not make it acceptable.
+Some uncertainty requires escalation, disclosure, or refusal — not deferral.
+
 
 **IAF's critical role:** Create safety for honest answers. If team always says "yes, we met everything," either:
 - Criteria are too easy
@@ -402,16 +428,16 @@ If repair is required, it must be captured as a **concrete action item** with an
 
 **This is tazkiyah:** Moving from assumption to consultation, from ego to humility.
 
-### Example 3: Ethical Debt Awareness
+### Example 3: Undisclosed Ethical Risk
 
 **Sprint 1 Retrospective:**
-- **Muhāsabah:** "We skipped privacy review to ship faster - we created privacy debt"
+- **Muhāsabah:** "We skipped privacy review to ship faster - we introduced undisclosed privacy risk"
 - **Recognition:** "We knew it was wrong but did it anyway because of deadline pressure"
 - **Why?** "We're afraid to push back on stakeholders"
-- **Tawbah:** "Privacy debt goes to top of next sprint backlog. We'll also discuss with stakeholders why privacy reviews are non-negotiable"
+- **Tawbah:** "The undisclosed privacy risk is addressed immediately. We will inform affected stakeholders, clarify why privacy reviews are non-negotiable, and ensure remediation is prioritised rather than deferred."
 
 **Sprint 2 Retrospective:**
-- **Muhāsabah:** "We addressed privacy debt immediately and had the conversation with stakeholders"
+- **Muhāsabah:** "We addressed the undisclosed privacy risk immediately and had the conversation with stakeholders"
 - **Celebrate:** "Stakeholders understood when we explained the ethical risk - they support privacy reviews"
 - **Recognition:** "Our fear of pushback was unfounded"
 - **DoD Update:** "Privacy review mandatory, no exceptions"
@@ -434,7 +460,7 @@ If repair is required, it must be captured as a **concrete action item** with an
 |----------------------|---------------------------|
 | "Accessible to users with disabilities" | "Did we actually test with screen reader?" |
 | "Stakeholders consulted" | "Did we consult before building, or after?" |
-| "No ethical debt created" | "What shortcuts did we take?" |
+| "No undisclosed ethical risk introduced" | "What uncertainty or shortcuts did we introduce, and who bears them?" |
 | "Sustainable pace" | "Did anyone work late? Why?" |
 | "Transparent to users" | "Is anything confusing we're ignoring?" |
 
@@ -623,7 +649,7 @@ If repair is required, it must be captured as a **concrete action item** with an
 
 Track over time:
 - **DoD compliance rate:** % of work that actually met all criteria
-- **Ethical debt incidents:** How often do we create ethical debt?
+- **Undisclosed ethical risk incidents:** How often do we introduce uncertainty or harm without adequate disclosure or consent?
 - **Habit success rate:** What % of committed habits actually stick?
 - **Team wellbeing:** Burnout indicators, sustainable pace metrics
 - **Stakeholder feedback:** Barakah Review insights
