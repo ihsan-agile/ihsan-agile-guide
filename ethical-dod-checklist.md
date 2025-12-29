@@ -5,49 +5,50 @@ Expand your Definition of Done to include ethical and Islamic criteria, ensuring
 ## How to Use This
 
 1. **Start with your existing DoD** (tests pass, code reviewed, etc.)
-2. **Add 2-3 ethical criteria** from the list below
+2. **Add 2–3 ethical criteria** from the list below
 3. **Adapt to your context** (fintech needs different criteria than a blog)
-4. **Make them non-negotiable** - work isn't "Done" until ethical criteria are met
-5. **Review quarterly** - refine based on what you learn in Muhāsabah retrospectives
+4. **Make them non-negotiable** – work isn't "Done" until ethical criteria are met
+5. **Review quarterly** – refine based on what you learn in Muhāsabah retrospectives
 
 ## Core Principles
 
 **Remember:** Definition of Done is not just functional completeness, it's **ethical completeness**. We're ensuring work:
+
 - Honors the **niyyah** (intention) we set
-- Meets standards of **iḥsān** (excellence with God-consciousness)  
+- Meets standards of **iḥsān** (excellence with God-consciousness)
 - Genuinely serves **maṣlaḥah** (public good)
-- Avoids creating **ethical debt**
+- Avoids creating **ethical debt** that transfers harm or uncertainty to others without their knowledge
 
 ---
 
 ## Universal Criteria (Good for Most Teams)
 
 ### Transparency & Justice (ʿAdl)
-- [ ] **Transparent and truthful** - No dark patterns, misleading UI, or hidden costs
-- [ ] **User agency respected** - Users can make informed choices without manipulation
-- [ ] **Clear terms** - Costs, risks, and commitments communicated in plain language
-- [ ] **Honest representation** - Product does what we claim it does
+- [ ] **Transparent and truthful** – No dark patterns, misleading UI, or hidden costs
+- [ ] **User agency respected** – Users can make informed choices without manipulation
+- [ ] **Clear terms** – Costs, risks, and commitments communicated in plain language
+- [ ] **Honest representation** – Product does what we claim it does
 
 ### Harm Prevention & Stewardship (Amānah)
-- [ ] **No foreseeable harm** - Considered negative impacts; mitigations documented
-- [ ] **Vulnerable groups protected** - Impact on children, older individuals, those with disabilities, low-income assessed
-- [ ] **Consultation honored (Shūrā)** - Affected stakeholders were genuinely consulted, not just informed
-- [ ] **Gharar reduced** - Excessive uncertainty removed through validation/testing
+- [ ] **No foreseeable harm** – Considered negative impacts; mitigations documented
+- [ ] **Vulnerable groups protected** – Impact on children, older individuals, those with disabilities, low-income assessed
+- [ ] **Consultation honored (Shūrā)** – Affected stakeholders were genuinely consulted, not just informed
+- [ ] **Harmful gharar addressed** – Avoidable uncertainty that could mislead users or unfairly transfer risk has been disclosed, validated, or mitigated
 
 ### Sustainability & Balance (Mīzān)
-- [ ] **Stewardship respected** - Built at sustainable pace without burning out team
-- [ ] **Environmental consciousness** - Energy efficiency and resource use considered
-- [ ] **No ethical debt created** - No shortcuts taken that compromise values
+- [ ] **Stewardship respected** – Built at sustainable pace without burning out team
+- [ ] **Environmental consciousness** – Energy efficiency and resource use considered
+- [ ] **No ethical debt created** – No shortcuts taken that compromise values *without disclosure, ownership, and a plan to address them*
 
 ### Privacy & Dignity
-- [ ] **Privacy honored** - No unnecessary data collection; user consent clear and meaningful
-- [ ] **Data stewardship** - Collected data protected and used only for stated purpose
-- [ ] **Dignity preserved** - Users treated with respect, never exploited
+- [ ] **Privacy honored** – No unnecessary data collection; user consent clear and meaningful
+- [ ] **Data stewardship** – Collected data protected and used only for stated purpose
+- [ ] **Dignity preserved** – Users treated with respect, never exploited
 
 ### Accessibility & Inclusion
-- [ ] **Accessible** - Works for users with disabilities
-- [ ] **Inclusive design** - Doesn't exclude based on income, location, language, or ability
-- [ ] **Equitable access** - Works on low-bandwidth connections and older devices
+- [ ] **Accessible** – Works for users with disabilities
+- [ ] **Inclusive design** – Doesn't exclude based on income, location, language, or ability
+- [ ] **Equitable access** – Works on low-bandwidth connections and older devices
 
 ---
 
@@ -56,27 +57,29 @@ Expand your Definition of Done to include ethical and Islamic criteria, ensuring
 ### For Financial Products (Islamic Fintech)
 
 #### Shariah Compliance
-- [ ] **Shariah compliance reviewed** - Reviewed by qualified scholar or Shariah board
-- [ ] **No prohibited elements** - Free from riba (interest), gharar (excessive uncertainty), maysir (gambling)
-- [ ] **Halal income verified** - Investment/funding sources are halal
+- [ ] **Shariah compliance reviewed** – Reviewed by qualified scholar or Shariah board
+- [ ] **No prohibited elements** – Free from riba (interest), gharar (harmful uncertainty), maysir (gambling)
+- [ ] **Halal income verified** – Investment/funding sources are halal
 
 #### Gharar (Uncertainty) Avoidance
-- [ ] **Terms are clear** - No ambiguity in contracts, costs, or obligations
-- [ ] **Risks disclosed** - Material risks communicated in understandable terms
-- [ ] **Affordability verified** - Genuinely affordable for target users, not predatory
-- [ ] **User understanding validated** - Users actually understand what they're agreeing to (tested, not assumed)
+- [ ] **Terms are clear** – No ambiguity in contracts, costs, or obligations
+- [ ] **Risks disclosed** – Material risks communicated in understandable terms
+- [ ] **Affordability verified** – Genuinely affordable for target users, not predatory
+- [ ] **User understanding validated** – Users actually understand what they're agreeing to (tested, not assumed)
 
 #### Maṣlaḥah (Public Benefit)
-- [ ] **Genuine benefit confirmed** - Solves real problem, serves actual need
-- [ ] **Not exploitative** - Doesn't prey on financial vulnerability or desperation
-- [ ] **Financial literacy supported** - Helps users make informed decisions, doesn't obscure complexity
-- [ ] **Fair to all parties** - Not just optimized for company profit at user expense
+- [ ] **Genuine benefit confirmed** – Solves real problem, serves actual need
+- [ ] **Not exploitative** – Doesn't prey on financial vulnerability or desperation
+- [ ] **Financial literacy supported** – Helps users make informed decisions, doesn't obscure complexity
+- [ ] **Fair to all parties** – Not just optimized for company profit at user expense
 
 #### Stewardship & Justice
-- [ ] **Customer service accessible** - Users can get help when needed
-- [ ] **Dispute resolution fair** - Clear process for addressing problems
-- [ ] **No hidden fees** - All costs transparent upfront
-- [ ] **Exit possible** - Users can leave/withdraw without punitive barriers
+- [ ] **Customer service accessible** – Users can get help when needed
+- [ ] **Dispute resolution fair** – Clear process for addressing problems
+- [ ] **No hidden fees** – All costs transparent upfront
+- [ ] **Exit possible** – Users can leave/withdraw without punitive barriers
+
+---
 
 ### For Community/Social Platforms
 
@@ -139,10 +142,10 @@ Expand your Definition of Done to include ethical and Islamic criteria, ensuring
 ## Technical Stewardship (Amānah)
 
 ### Code Quality as Ethics
-- [ ] **Technical debt documented** - Known issues recorded with mitigation plan and timeline
-- [ ] **Future maintainers considered** - Clear code, comprehensive documentation
-- [ ] **Security reviewed** - No known vulnerabilities, security practices followed
-- [ ] **Performance acceptable** - Doesn't waste users' time, data, or device resources
+- [ ] **Technical debt documented** – Known limitations and uncertainties recorded with ownership, disclosure, and a mitigation plan
+- [ ] **Future maintainers considered** – Clear code, comprehensive documentation
+- [ ] **Security reviewed** – No known vulnerabilities, security practices followed
+- [ ] **Performance acceptable** – Doesn't waste users' time, data, or device resources
 
 ### Environmental Responsibility (Khilāfah)
 - [ ] **Energy-efficient code** - Reasonably optimized, not wasteful
@@ -217,61 +220,88 @@ Tazkiyah is the **gradual growth** that emerges from honest accounting.
 
 ---
 
-## Ethical Debt Management
+## Ethical Debt, Gharar, and Declared Uncertainty
 
-### What Is Ethical Debt?
+Ethical debt in Ihsan Agile does **not** mean imperfection, speed, or pragmatic trade-offs.
 
-Just as technical debt creates future costs, **ethical debt** creates future harm:
+It refers to situations where **uncertainty, risk, or burden is introduced in a way that others may bear the consequences without full knowledge, consent, or recourse**.
 
-| Type | Example | Consequence |
-|------|---------|-------------|
-| **Accessibility debt** | "We'll add screen reader support later" | Excludes people with disabilities **now** |
-| **Privacy debt** | "We'll tighten data collection later" | Violates user trust **now** |
-| **Transparency debt** | "We'll simplify the terms later" | Misleads users **now** |
-| **Sustainability debt** | "The team will recover after this sprint" | Burns people out **now** |
-| **Consultation debt** | "We'll validate with users later" | Builds wrong thing **now** |
-| **Security debt** | "We'll fix this vulnerability next sprint" | Exposes users to harm **now** |
+In Islamic commercial ethics, this pattern is described as **gharar**:
+harmful uncertainty arising from **information asymmetry**, not from risk itself.
 
-### If You Must Accept Ethical Debt (rarely)
+Not all uncertainty is unethical.  
+What matters is whether uncertainty is:
 
-**Document it explicitly:**
-- [ ] **Ethical debt acknowledged** - Documented in backlog as high-priority item
-- [ ] **Mitigation plan exists** - Clear timeline and approach for addressing it
-- [ ] **Impact understood** - Team knows who is harmed and how
-- [ ] **Stakeholders informed** - Affected parties aware of the temporary limitation
-- [ ] **Deadline set** - Committed timeline for resolution (not indefinite)
+- disclosed or concealed  
+- shared or unfairly transferred  
+- actively stewarded or quietly normalised  
 
-**Best practice:** Refuse ethical debt the same way you'd refuse brittle, untested code in production.
+The concern is not *that* a shortcut was taken, but **who now carries the consequences — and whether they know**.
+
+All technical limitations referenced here should also be recorded in the Technical Uncertainty Register (./technical-uncertainty-register.md); this section exists to assess whether any of those uncertainties create ethical risk through non-disclosure, unjust transfer of harm, or lack of consent.
 
 ---
 
-## Example: Complete DoD for Islamic Fintech App
+## Using This Section Correctly (Important)
 
-### Functional (Standard)
-- [ ] All acceptance criteria met
-- [ ] Unit tests pass (80%+ coverage)
-- [ ] Integration tests pass
-- [ ] Code reviewed and approved by 2 developers
-- [ ] Deployed to staging successfully
+This section exists to **surface and challenge unresolved ethical concerns**, not to justify proceeding.
 
-### Technical (Standard)
-- [ ] Technical debt documented in backlog with severity
-- [ ] Security scan passed (no critical/high vulnerabilities)
-- [ ] Performance within acceptable range (<3s load time)
-- [ ] Documentation updated (API docs, user guides)
-- [ ] Accessible via keyboard navigation
+Recording an issue here does **not** make it acceptable.
 
-### Ethical (Ihsan Agile)
-- [ ] Shariah compliance reviewed by qualified scholar
-- [ ] No gharar - terms are crystal clear, tested with actual users
-- [ ] No hidden fees or surprising costs
-- [ ] UI is transparent (no dark patterns or manipulation)
-- [ ] Privacy policy updated if data handling changed
-- [ ] Accessible to users with disabilities
-- [ ] Risk/cost clearly communicated in plain language
-- [ ] Tested with users from target demographic (not just team assumptions)
-- [ ] Team built at sustainable pace (no late nights/weekends)
-- [ ] Genuine benefit validated (solves real problem users actually have)
+Some forms of uncertainty:
+- require escalation  
+- require explicit disclosure or consent  
+- require redesign or refusal  
+
+Documentation without justice or consent does **not** resolve gharar.
+
+---
+
+## Declared Ethical Trade-offs and Unresolved Uncertainty
+
+Use this table to make ethical risk visible **before it becomes normalised**.
+
+| Area of concern | What uncertainty or harm is being introduced? | Who may bear the consequences? | Is this disclosed to them? | Steward / owner | Ethical status |
+|-----------------|----------------------------------------------|-------------------------------|----------------------------|-----------------|----------------|
+| Example: Accessibility | Screen reader support incomplete | Users with visual impairments | Partially (release notes) | Product | ⚠ Requires escalation |
+| Example: Financial clarity | Edge-case fees unclear | Low-income users | No | Compliance | ❌ Not acceptable |
+| Example: Maintainability | Auth logic simplified | Future maintainers | Yes (documented) | Tech lead | ✅ Acceptable with review |
+
+### Ethical status guidance
+
+- **✅ Acceptable** – uncertainty is disclosed, proportionate, stewarded, and just  
+- **⚠ Requires escalation** – disclosure or consent is incomplete; proceed only after review  
+- **❌ Not acceptable** – uncertainty creates unjust harm or deception; must be addressed before release  
+
+---
+
+## Key Questions for the Facilitator (IAF)
+
+When reviewing this table, ask:
+
+- Are we naming uncertainty, or disguising it as “later work”?
+- Who would be surprised if this caused harm?
+- Are we relying on documentation where consent is actually required?
+- Are we treating this as a temporary necessity, or quietly as the new normal?
+
+> **IAF note**  
+> The ethical failure is rarely the shortcut itself.  
+> It is allowing uncertainty to persist in a way that transfers harm to people who did not agree to carry it.
+
+---
+
+## Non-Negotiable Boundary
+
+Some ethical risks **cannot** be deferred, even if documented.
+
+If proceeding would:
+
+- mislead users  
+- obscure financial or legal consequences  
+- expose vulnerable groups to harm  
+- transfer risk without consent  
+
+then the work is **not ethically complete**, regardless of delivery pressure.
 
 ---
 
@@ -353,7 +383,7 @@ After several sprints using Ethical DoD:
 - Are criteria becoming rote checkboxes or genuine ethical reflection?
 - Has DoD caught real ethical issues? (If no → criteria may be too vague)
 - Does team understand *why* each criterion matters?
-- Are we creating ethical debt? If so, is it documented and prioritized?
+- Are we creating ethical debt? If so, is it documented, disclosed, and prioritized in our workflows?
 - Do criteria reflect actual risks in our context, or generic best practices?
 - Is DoD enabling tazkiyah (growth), or just compliance?
 
