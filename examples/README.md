@@ -4,7 +4,7 @@ Real-world applications and case studies of the Ihsan Agile framework.
 
 ## Available Examples
 
-- **[Case Study Template](case-study-template.md)** - Format for documenting your pilot experience
+- **[Case Study Template](../case-study-template.md)** - Format for documenting your pilot experience
 
 ## Coming Soon
 
