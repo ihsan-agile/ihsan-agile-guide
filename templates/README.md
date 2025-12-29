@@ -6,9 +6,9 @@ Practical implementation tools for adopting Ihsan Agile practices.
 
 ### Core Practices
 
-- [Niyyah Check-in Template](./niyyah-checkin-template.md) – Intention-setting at sprint planning (2–3 min)
-- [Ethical Definition of Done](./ethical-dod-checklist.md) – Comprehensive DoD with Islamic values
-- [Muhāsabah Retrospective Template](./muhasabah-retrospective-template.md) – Ethical reflection and growth (45–90 min)
+- [Niyyah Check-in Template](../niyyah-checkin-template.md) – Intention-setting at sprint planning (2–3 min)
+- [Ethical Definition of Done](../ethical-dod-checklist.md) – Comprehensive DoD with Islamic values
+- [Muhāsabah Retrospective Template](../muhasabah-retrospective-template.md) – Ethical reflection and growth (45–90 min)
 
 ## How to Use These Templates
 
