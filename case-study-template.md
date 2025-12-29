@@ -80,10 +80,12 @@ Use this template to document your experience piloting Ihsan Agile.
 [Feedback from users, customers, beneficiaries?]
 
 ### Challenges Encountered
+Consider especially: where uncertainty, risk, or trade-offs were difficult to surface honestly under delivery pressure.
 
 [What was difficult? Where did you struggle?]
 
 ### Unexpected Insights
+Did your understanding of uncertainty, disclosure, or responsibility change during the pilot?
 
 [What surprised you? What did you learn that wasn't in the Guide?]
 
@@ -129,7 +131,7 @@ Use this template to document your experience piloting Ihsan Agile.
 - Stakeholder consultation: [Always / Sometimes / Rarely]
 - Ethical criteria met: [percentage or qualitative]
 - Work-life balance: [qualitative assessment]
-- Ethical debt incidents: [number of times we created ethical debt]
+- Undisclosed ethical risk incidents: [number of times uncertainty or harm was introduced without adequate disclosure or consent]
 
 **Impact Metrics:**
 - Beneficiaries reached: [number or qualitative]
