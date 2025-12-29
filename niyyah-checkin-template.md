@@ -1,191 +1,220 @@
 # Niyyah Check-in Template
 
-A brief ethical orientation before committing to work. Use this at the beginning of Sprint Planning, PI Planning, or other planning sessions to establish conscious intention before work.
+Use this at the beginning of Sprint Planning, PI Planning, or other planning
+sessions to establish conscious intention before work.
+
+## Duration
+2–3 minutes
+
+## Facilitator Role
+The Ihsan Agile Facilitator (IAF) or Scrum Master guides this practice.
+
+## Islamic Foundation
+
+"The reward of deeds depends upon the intentions and every person will get the
+reward according to what he has intended."
+(Ṣaḥīḥ al-Bukhārī 1)
+
+This practice embodies the first of the Three Pillars: **Niyyah** (نِيَّة) —
+clarifying the purpose and higher aim of our work, transforming delivery from
+mere output into ʿibādah (worship through service).
+
+## Process
+
+### 1. Frame the Practice (30 seconds)
+
+**IAF or Scrum Master says:**
+
+> "Before we dive into planning, let's take a moment for niyyah —
+> to clarify our intention and purpose. This isn't just about what we're
+> building, but why it matters, whom it serves, and how it aligns with our
+> commitment to work with iḥsān — excellence with God-consciousness."
 
 ---
 
-## Purpose
+### 2. Ask the Core Questions (1–2 minutes)
 
-The Niyyah Check-in is a short reflective practice used **before committing to work**.
-
-Its purpose is to help teams pause and ask whether their **intentions, assumptions, and trade-offs** are aligned with honesty, responsibility, and care for others.
-
-This practice does **not** aim to eliminate uncertainty or prevent difficult decisions.  
-It exists to ensure that uncertainty is **acknowledged, disclosed, and stewarded**, rather than hidden or transferred to others unnoticed.
+Go through these questions as a team.
+Brief discussion, not lengthy debate.
 
 ---
 
-## When to Use
+#### Question 1: Why are we building this? (Purpose)
 
-Use the Niyyah Check-in:
-
-- at the start of a sprint or iteration
-- before committing to high-risk or time-pressured work
-- when trade-offs feel uncomfortable or unclear
-- when uncertainty may affect users, communities, or future maintainers
-- when inheriting or extending existing systems
-
-This check-in typically takes **2–5 minutes**.
+- What is the higher purpose beyond the feature, sprint, or release?
+- How does this serve something meaningful?
+- Does this work bring us closer to serving Allah’s creation?
 
 ---
 
-## What This Is (and Is Not)
+#### Question 2: Who benefits? Who might be harmed? (Maṣlaḥah)
 
-- This is **not** a moral test or judgement.
-- This is **not** a commitment to perfection.
-- This is **not** a replacement for governance or review.
-
-This is a moment of **orientation**:
-> “What are we intending to do, and who might bear the consequences?”
-
----
-
-## The Niyyah Check-in
-
-### Question 1: Intention
-**Why are we choosing this course of action now?**
-
-Select all that apply:
-
-- [ ] To serve users or communities more effectively
-- [ ] To address an urgent or time-sensitive need
-- [ ] To learn something that cannot be known in advance
-- [ ] To meet an external constraint we cannot change
-- [ ] To reduce longer-term harm or fragility
-
-If none apply:
-
-- [ ] We are acting primarily for convenience or speed
-- [ ] We are deferring responsibility to a later time or team
-
-Pause if intention is unclear or misaligned.
+- Who specifically will this help?
+  Be concrete: "older users," "small business owners," "students"
+- Who might we be overlooking or unintentionally harming?
+- Are we making assumptions about beneficiaries without consulting them
+  (violating shūrā)?
 
 ---
 
-### Question 2: Beneficiaries and Burdens
-**Who benefits from this decision, and who may bear its costs?**
+#### Question 3: What uncertainties remain? (Gharar Awareness)
 
-Consider:
+- What don’t we know yet that could affect the outcome?
+- Are we building based on assumptions or validated understanding?
+- What gharar (غَرَر — harmful uncertainty) should we reduce before committing?
 
-- [ ] Users or customers
-- [ ] Communities affected by the system
-- [ ] Future maintainers or operators
-- [ ] Support, operations, or on-call staff
-- [ ] People excluded or marginalised by design choices
+Examples to surface:
+- Do we understand user needs?
+- Have we consulted affected stakeholders?
+- Are technical unknowns acknowledged and documented?
 
-Ask explicitly:
-
-- [ ] Are benefits and burdens falling on the same people?
-- [ ] Are any groups carrying risk without knowing it?
-
----
-
-### Question 3: Uncertainty and Disclosure
-**What uncertainty are we introducing, and who knows about it?**
-
-Select all that apply:
-
-- [ ] There are known limitations or shortcuts in this work
-- [ ] There are assumptions that may not hold in all cases
-- [ ] There are edge cases we are not addressing yet
-- [ ] There are risks that will surface later or at scale
-
-For each, ask:
-
-- [ ] Has this uncertainty been named explicitly?
-- [ ] Has it been documented in plain language?
-- [ ] Do those who may be affected know it exists?
-
-Undisclosed uncertainty preserves ignorance (jahalah) and creates the conditions for harm.
+> Not all uncertainty is gharar.  
+> Gharar refers to **avoidable uncertainty that causes harm through ignorance,
+> false confidence, or lack of disclosure**, especially when others bear the
+> consequences without knowing.
 
 ---
 
-### Question 4: Harm and Stewardship
-**What harm could arise if this uncertainty is misunderstood or forgotten?**
+#### Question 4: What ethical risk are we introducing or accepting? (Stewardship)
 
-Consider whether this decision could:
+Previously this has often been described as “ethical debt.”
+What matters here is not the metaphor, but the reality:
 
-- [ ] Mislead users about reliability or completeness
-- [ ] Violate trust (privacy, security, data use)
-- [ ] Create avoidable fragility or burnout
-- [ ] Burden future maintainers without context
-- [ ] Cause exclusion, confusion, or inequity
+- Are we introducing **risk, burden, or uncertainty** that others may have to
+  live with?
+- Do they know this risk exists?
+- Are we relying on “we’ll fix it later” without clarity, ownership, or consent?
 
-Then ask:
+Reflect honestly:
 
-- [ ] Who is responsible for noticing if harm begins to emerge?
-- [ ] How will this responsibility be revisited over time?
+- Are we taking shortcuts that affect:
+  - Accessibility (excluding people with disabilities)?
+  - Privacy (unnecessary data collection)?
+  - Transparency (dark patterns, hidden costs)?
+  - Sustainability (burning out the team)?
+  - Future maintainability (leaving problems for others to discover)?
+- What corners are we explicitly refusing to cut, even under pressure?
 
-Stewardship means responsibility does not disappear when work is shipped.
-
----
-
-### Question 5: Necessity
-**Is there a legitimate reason for accepting this uncertainty now?**
-
-Legitimate necessity may include:
-
-- [ ] Emergency or incident response
-- [ ] Time-bounded external constraints
-- [ ] Learning required before irreversible decisions
-
-Not necessity:
-
-- [ ] Chronic over-commitment
-- [ ] Convenience or pressure to appear fast
-- [ ] “We’ll fix it later” without capacity or intent
-
-Necessity may justify introducing uncertainty.  
-Necessity never justifies concealing it.
+Some trade-offs may be unavoidable.
+Concealing their impact is not.
 
 ---
 
-### Question 6: Next Right Action
-**What is the most honest step we can take now?**
+#### Question 5: How does this serve maṣlaḥah (public good)? (Verification)
 
-Select one or more:
-
-- [ ] Proceed, with explicit disclosure and documentation
-- [ ] Proceed, but consult affected stakeholders first
-- [ ] Adjust scope to reduce harm or uncertainty
-- [ ] Add safeguards, warnings, or mitigations
-- [ ] Pause and escalate for further review
-
-Clarity at this stage prevents harm later.
+- What genuine benefit does this create?
+- How will we know it helped people, not just activity or metrics?
+- Are we optimising for real uplift or visible output?
 
 ---
 
-## Gharar (Uncertainty) Reflection
+### 3. Capture the Intention (30 seconds)
 
-Gharar is used here as a **juristic lens**, not as a claim that all uncertainty is unethical or avoidable.
+Write **one line** that captures the team’s intention.
+Display it alongside the Sprint Goal throughout the sprint.
 
-It draws attention to situations where:
-
-- uncertainty is avoidable
-- information is withheld
-- others bear risk they did not knowingly accept
-
-Ask:
-
-- [ ] Where might ignorance (jahalah) persist if we proceed?
-- [ ] What uncertainty would become unjust if left undisclosed?
-- [ ] What needs to be made visible now to prevent harm later?
-
-Addressing uncertainty begins with intention, but it must be carried through with action.
+The intention should connect **what** you are building to **why** it serves
+Allah’s creation.
 
 ---
 
-## Closing Reflection
+#### Examples of Strong Intentions
 
-Before committing, ask together:
+**Islamic Fintech**
+- "Building an accessible zakat calculator so visually impaired users can fulfil
+  their obligation with dignity and independence."
+- "Simplifying halal investment onboarding to reduce harmful uncertainty and help
+  Muslims invest confidently according to their values."
+- "Fixing a critical security vulnerability to protect users’ financial data and
+  honour the amānah placed in us."
 
-> Are we acting with honesty about what we know and do not know,  
-> and are we taking responsibility for how that uncertainty may affect others?
+**Charity / NGO**
+- "Creating a volunteer scheduling system to reduce admin burden on food-bank
+  coordinators, freeing them to serve more families."
+- "Building donation tracking to give donors transparency and strengthen trust in
+  our stewardship."
 
-Niyyah does not remove uncertainty.  
-It ensures uncertainty is **acknowledged before it is transferred**.
+**General Tech**
+- "Improving search accessibility so users with screen readers can find
+  information independently."
+- "Reducing page load time to respect users’ time and data costs."
 
 ---
 
-License: CC BY-SA 4.0  
-Maintained by: Ihsan Agile
+#### Examples of Weak Intentions (to avoid)
+
+- "Deliver features from the backlog"
+- "Make stakeholders happy"
+- "Hit sprint commitment"
+- "Ship what was planned"
+
+These describe activity, not purpose.
+
+---
+
+### 4. Brief Reflection (30 seconds)
+
+**IAF or Scrum Master asks:**
+
+> "Does this intention resonate?
+> Does it clarify who we serve?
+> Are there concerns about uncertainty or ethical risk we should address
+> before committing?"
+
+**Red flags to surface:**
+- "We don’t actually know if users need this" → Gharar concern
+- "We’ll skip accessibility to meet the deadline" → Undisclosed ethical risk
+- "This helps metrics but not people" → Maṣlaḥah concern
+
+---
+
+## Integration with Other Practices
+
+This check-in connects to:
+
+- **Ethical Definition of Done** — intention shapes which ethical criteria matter
+- **Shūrā** — high uncertainty requires consultation
+- **Muhāsabah retrospectives** — did we honour the intention we set?
+- **Technical Uncertainty practices** — surfaced unknowns should not remain hidden
+
+---
+
+## Tips for Success
+
+- Keep it brief — clarity, not ceremony.
+- Make answers concrete.
+- Display the intention visibly during the sprint.
+- Revisit if priorities shift.
+- Don’t force religious language with mixed teams.
+- Let niyyah enable respectful pushback on harmful work.
+
+---
+
+## What This Prevents
+
+- Building features no one needs
+- Ethical drift under pressure
+- Hidden uncertainty becoming normalised
+- Quiet transfer of harm to users or future maintainers
+- Confusing activity with benefit
+
+---
+
+## What This Enables
+
+- Purpose-aligned delivery
+- Clearer trade-offs under pressure
+- Conscious stewardship of trust and impact
+- Early surfacing of harmful uncertainty
+- Moral courage to refuse work that contradicts values
+
+---
+
+"What is Ihsan?"
+Allah’s Messenger (ﷺ) replied:
+"To worship Allah as if you see Him, and if you do not see Him,
+know that He sees you."
+(Ṣaḥīḥ al-Bukhārī 50)
+
+Every sprint begins with intention.
+Every line of code is written in the sight of Allah.
