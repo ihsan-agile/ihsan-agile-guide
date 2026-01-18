@@ -7,11 +7,15 @@
 
 ## What is Ihsan Agile?
 
-Ihsan Agile helps Muslim-led teams embed Islamic values into the Agile ceremonies and practices they already use. It overlays existing Agile methodologies (Scrum, Kanban, SAFe) with principles from the Qur'an and Sunnah.
+Ihsan Agile is a values-centred guide for Muslim-led teams and organisations using Agile methods.
 
-As Muslim-led organisations grow and scale, they naturally ask: **how do we translate Islamic principles into the daily Agile practices our teams already use?** Ihsan Agile provides a practical answer through systematic practices and the Ihsan Agile Facilitator role.
+It explores how Islamic ethical principles drawn from the Qur’an and Sunnah can be made *operational* within everyday Agile events, such as planning, review, and retrospective, without replacing existing frameworks such as Scrum, Kanban, or SAFe.
 
-**The approach:** Enriches what teams already do, rather than replacing it—making values operational, systematic, and sustainable.
+Rather than introducing a new methodology, Ihsan Agile offers an **ethical overlay**: a way of surfacing intention (*niyyah*), responsibility (*amānah*), consultation (*shūrā*), and public benefit (*maṣlaḥah*) at the points where delivery decisions are actually made.
+
+Version 1.1 extends the framework by focusing more explicitly on **uncertainty, disclosure, and stewardship** in software and product delivery, particularly where conventional Agile language (e.g. “technical debt”) can obscure ethical responsibility or downstream impact.
+
+The guide is practice-oriented and exploratory. It provides shared language, questions, and artefacts to support reflection and responsible decision-making, rather than prescribing fixed roles, outcomes, or organisational models.
 
 ## Three Pillars
 
@@ -31,10 +35,10 @@ As Muslim-led organisations grow and scale, they naturally ask: **how do we tran
 
 ### For Teams
 
-1. Read the [Ihsan Agile Guide](/Ihsan_Agile_Guide_Version_1_0_2025.pdf) (33 pages)
-2. Visit [ihsanagile.org](https://ihsanagile.org) for comprehensive resources
-3. Start with **Niyyah check-ins** at your next planning session (2-3 minutes)
-4. Join the [pilot program](https://ihsanagile.org/pilot) for guided implementation
+1. Read the [Ihsan Agile Guide (Version 1.1, 2026)](./Ihsan%20Agile%20Guide%20(Version%201.1%202026).pdf)
+2. Visit [ihsanagile.org](https://ihsanagile.org) for background and supporting resources
+3. Experiment with one small practice (e.g. a short Niyyah check-in or a disclosure conversation) within an existing Agile event
+4. Join the [pilot programme](https://ihsanagile.org/pilot) if you are interested in contributing to shared learning
 
 ### For Contributors
 
@@ -78,35 +82,58 @@ Coming soon:
 * **Values-driven tech organizations** seeking ethical frameworks
 * **Muslim professionals** wanting work to reflect Islamic principles
 
-## Key Practices
+## Key Practices (Version 1.1)
 
-The framework introduces seven core practices:
+Version 1.1 of the Ihsan Agile Guide articulates **eight core practices**. These practices are designed to integrate Islamic ethical reasoning into existing Agile ways of working, with particular emphasis on intention, disclosure, stewardship, and responsibility.
 
-1. **Niyyah Check-ins** - Intention-setting at planning
-2. **Ethical Completeness** - Expanding Definition of Done
-3. **Shūrā as Decision Practice** - Structured consultation
-4. **Stewardship & Mīzān** - Sustainable pace and waste reduction
-5. **Muhāsabah Retrospectives** - Ethical reflection
-6. **Stakeholder Barakah Reviews** - Impact assessment with stakeholders
-7. **Continuous Niyyah Alignment** - Regular purpose reconnection
+The practices are intentionally **non-prescriptive** and may be adapted to different contexts.
 
-## The Ihsan Agile Facilitator (IAF)
+1. **Niyyah Articulation**  
+   Making intention explicit at moments of commitment, prioritisation, and delivery — particularly where trade-offs are accepted.
 
-A companion-coach role that helps embed Islamic values into daily Agile practice by:
+2. **Ethical Completeness**  
+   Extending notions of “done” or “complete” to include justice, disclosure, and responsibility, not only functional or technical criteria.
 
-* Facilitating Niyyah check-ins at planning cycles
-* Transforming retrospectives into Muhāsabah sessions
-* Ensuring Definition of Done includes justice and stewardship
-* Conducting Stakeholder Barakah Reviews
-* Supporting Shūrā in decision-making
+3. **Disclosure of Uncertainty** *(expanded in v1.1)*  
+   Actively identifying and communicating known technical, organisational, or ethical uncertainties that may affect users or stakeholders.
 
-The IAF complements existing Agile roles (Scrum Master, Product Owner, RTE) rather than replacing them.
+4. **Shūrā as a Decision Practice**  
+   Structuring consultation around consequential decisions, especially where impacts are uneven, unclear, or deferred.
+
+5. **Stewardship and Mīzān**  
+   Attending to balance, sustainability, and long-term consequences across systems, people, and obligations.
+
+6. **Product Stewardship Reflection** *(new in v1.1)*  
+   Reflecting on how responsibility for user impact, trust, and disclosure is exercised over time, distinct from delivery facilitation.
+
+7. **Muhāsabah-Oriented Retrospectives**  
+   Reviewing outcomes, intentions, and consequences, including ethical and stakeholder impact, as part of continuous improvement.
+
+8. **Continuous Niyyah Alignment**  
+   Regularly reconnecting day-to-day work with higher purpose, particularly as scope, pressure, or incentives shift.
+
+## Roles and Stewardship (Exploratory)
+
+Version 1.1 introduces **two exploratory role concepts** intended to support ethical reflection and disclosure within Agile delivery. These are not prescribed roles, and teams may choose to adopt, adapt, combine, or ignore them.
+
+### Ihsan Agile Facilitator (IAF)
+
+A facilitative role focused on supporting ethical reflection within Agile events, such as intention-setting, consultation, and retrospectives. Where used, this role may be taken on by an existing team member (e.g. Scrum Master, coach, or rotating facilitator).
+
+### Ihsan Agile Product Steward (IAPS)
+
+A stewardship-oriented role concerned with surfacing and disclosing uncertainty, assumptions, and trade-offs embedded in product and technical decisions, particularly where these may affect users, stakeholders, or trust.
+
+Both roles are presented as ways of framing responsibility rather than prescribed organisational positions. Their practical usefulness is intentionally left open to evaluation through pilot work and community feedback.
 
 ## Academic Grounding
 
 Published with DOI: [10.5281/zenodo.17794838](https://doi.org/10.5281/zenodo.17794838)
 
 **Citation:**
+
+Version 1.0 of *The Ihsan Agile Guide* is archived on Zenodo and should be cited as follows.  
+Version 1.1 will be deposited as a new Zenodo version on 1 Shaʿbān 1447 AH / January 20, 2026 CE.
 
 ```bibtex
 @techreport{wallace-hare2025ihsan,
@@ -133,12 +160,14 @@ Read the full evaluation: https://www.muslimopensource.org/evaluations/ihsan-agi
 
 ## Current Status
 
-**Version 1.0** published December 3, 2025
+**Version 1.1** published 2026
 
-* 150+ downloads on Zenodo in first 10 days since publication, 300 in first 20 days (by December 22, 2025) 
-* Active pilot program recruitment
-* Community development phase
-* Designing and evaluating a long-term stewardship and governance model (with a CIC as a leading candidate), informed by pilot outcomes and community consultation
+- Conceptual and practice-oriented extension of Version 1.0
+- Expanded focus on uncertainty, disclosure, and ethical stewardship
+- Pre-pilot phase: practices and roles are presented for exploration, not validation
+- Pilot programme open for organisations wishing to contribute to shared learning
+
+Earlier versions remain available for transparency and academic reference.
 
 See [ROADMAP.md](/ROADMAP.md) for detailed development timeline.
 
