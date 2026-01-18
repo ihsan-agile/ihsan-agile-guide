@@ -62,6 +62,7 @@ ihsan-agile-guide/
 │   ├── README.md
 │   └── case-study-template.md
 ├── Ihsan_Agile_Guide_Version_1_0_2025.pdf  # Complete framework (v1.0)
+├── Ihsan Agile Guide (Version 1.1 2026).pdf  # Complete framework (v1.1)
 ├── technical-uncertainty-register.md     # Governance resource: track and disclose technical uncertainty
 ├── gharar-assessment-checklist.md # Governance resource: assess uncertainty and disclosure risk
 ├── README.md                      # This file
