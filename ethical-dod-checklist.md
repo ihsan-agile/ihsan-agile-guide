@@ -24,7 +24,7 @@ Expand your Definition of Done to include ethical and Islamic criteria, ensuring
 ## Universal Criteria (Good for Most Teams)
 
 ### Transparency & Justice (ʿAdl)
-- [ ] **Transparent and truthful** – No dark patterns, misleading UI, or hidden costs
+- [ ] **Transparent and truthful** – No deceptive patterns, misleading UI, or hidden costs
 - [ ] **User agency respected** – Users can make informed choices without manipulation
 - [ ] **Clear terms** – Costs, risks, and commitments communicated in plain language
 - [ ] **Honest representation** – Product does what we claim it does
@@ -142,7 +142,7 @@ Expand your Definition of Done to include ethical and Islamic criteria, ensuring
 ## Technical Stewardship (Amānah)
 
 ### Code Quality as Ethics
-- [ ] **Technical debt documented** – Known limitations and uncertainties recorded with ownership, disclosure, and a mitigation plan
+- [ ] **Technical constraints disclosed** – All shortcuts documented in TUR with Gharar Assessment and appropriate stakeholder disclosure (see Technical Disclosure section below)
 - [ ] **Future maintainers considered** – Clear code, comprehensive documentation
 - [ ] **Security reviewed** – No known vulnerabilities, security practices followed
 - [ ] **Performance acceptable** – Doesn't waste users' time, data, or device resources
@@ -166,6 +166,11 @@ Expand your Definition of Done to include ethical and Islamic criteria, ensuring
 - [ ] **Diverse voices included** - Perspectives from different roles, backgrounds, experiences
 - [ ] **Dissent welcomed** - Alternative views were heard and considered seriously
 - [ ] **Users involved** - Where appropriate, actual users/beneficiaries consulted
+
+### Product Steward Verification (if IAPS role adopted)
+- [ ] **Technical disclosure complete** – IAPS confirms TUR entries exist and disclosure obligations fulfilled
+- [ ] **Stakeholder transparency maintained** – Those affected by technical constraints have been appropriately informed
+- [ ] **Maṣlaḥah validated** – Product Steward confirms work serves genuine public benefit, not just organizational goals
 
 ### Team Wellbeing (Amānah toward colleagues)
 - [ ] **Team consensus** - No one was steamrolled; significant concerns were addressed
@@ -220,53 +225,92 @@ Tazkiyah is the **gradual growth** that emerges from honest accounting.
 
 ---
 
-## Ethical Debt, Gharar, and Declared Uncertainty
+## Technical Disclosure and Gharar Management
 
-Ethical debt in Ihsan Agile does **not** mean imperfection, speed, or pragmatic trade-offs.
+**Critical reframing:** What conventional Agile calls "technical debt" becomes **technical disclosure** in Ihsan Agile.
 
-It refers to situations where **uncertainty, risk, or burden is introduced in a way that others may bear the consequences without full knowledge, consent, or recourse**.
+Technical shortcuts themselves aren't prohibited. Rapid prototyping, market validation, and emergency responses serve legitimate purposes.
 
-In Islamic commercial ethics, this pattern is described as **gharar**:
-harmful uncertainty arising from **information asymmetry**, not from risk itself.
+The issue is **how we approach them**: treating shortcuts as hidden "debt" we manage internally, rather than disclosed constraints requiring transparency and, where appropriate, stakeholder consent.
 
-Not all uncertainty is unethical.  
-What matters is whether uncertainty is:
+### The Riba-Gharar Problem in Conventional Technical Debt
 
-- disclosed or concealed  
-- shared or unfairly transferred  
-- actively stewarded or quietly normalised  
+Conventional Product Owner guidance treats technical debt using explicit interest-based frameworks: "pay it back with interest." This creates two Islamic prohibitions simultaneously:
 
-The concern is not *that* a shortcut was taken, but **who now carries the consequences — and whether they know**.
+1. **Riba (Interest):** Normalizes interest-based thinking in product decisions
+2. **Gharar (Harmful Uncertainty):** Risk is hidden from stakeholders; those who will bear consequences (users experiencing bugs, developers inheriting unmaintainable code, communities facing service disruptions) are not consulted or even informed
 
-All technical limitations referenced here should also be recorded in the Technical Uncertainty Register (./technical-uncertainty-register.md); this section exists to assess whether any of those uncertainties create ethical risk through non-disclosure, unjust transfer of harm, or lack of consent.
+### From Technical Debt to Technical Disclosure
 
----
+The stance shifts fundamentally:
 
-## Using This Section Correctly (Important)
+| Conventional "Technical Debt" | Ihsan Agile "Technical Disclosure" |
+|------------------------------|-----------------------------------|
+| Internal financial liability to manage | Risk transfer requiring stakeholder consent |
+| "Can we afford to pay this back?" | "Have we been truthful with those affected?" |
+| Hidden until it becomes crisis | Visible from the moment it's created |
+| Measured by impact on team velocity | Measured by impact on stakeholder trust |
+| Disclosed when convenient | Disclosed as moral obligation |
+| Success = debt paid off | Success = stakeholders informed and consenting |
 
-This section exists to **surface and challenge unresolved ethical concerns**, not to justify proceeding.
+### Technical Disclosure Criteria for DoD
 
-Recording an issue here does **not** make it acceptable.
+**For teams using Technical Uncertainty Register (TUR):**
+
+- [ ] **TUR entry created** – Technical shortcuts documented immediately, not after they cause problems
+- [ ] **Gharar Assessment completed** – If uncertainty affects stakeholders, assessment determines required disclosure level
+- [ ] **Disclosure obligations fulfilled** – Based on assessment results:
+  - Level 1 (Document): Entry exists in TUR
+  - Level 2 (Inform): Stakeholders notified through appropriate channel
+  - Level 3 (Consult): Stakeholder input obtained and documented
+  - Level 4 (Obtain Consent): Explicit stakeholder consent recorded
+- [ ] **Affected parties identified** – Clear documentation of who bears consequences (users, future maintainers, communities)
+- [ ] **Mitigation plan exists** – How and when constraint will be addressed, with owner assigned
+
+### Using This Section Correctly (Important)
+
+This section exists to **surface and ensure transparent disclosure**, not to justify proceeding without it.
+
+Recording an issue in TUR does **not** make it acceptable if disclosure obligations aren't fulfilled.
 
 Some forms of uncertainty:
-- require escalation  
-- require explicit disclosure or consent  
-- require redesign or refusal  
+- Require escalation to leadership or Shariah board
+- Require explicit disclosure and stakeholder consent before proceeding
+- Require redesign or refusal, not deferral
 
-Documentation without justice or consent does **not** resolve gharar.
+Documentation without disclosure, consent, or justice does **not** resolve gharar.
+
+### Integration with Technical Uncertainty Register
+
+All technical limitations should be recorded in the [Technical Uncertainty Register](technical-uncertainty-register.md).
+
+This DoD section ensures:
+1. Shortcuts are documented **immediately** (not later)
+2. Gharar Assessment determines **required disclosure level**
+3. Disclosure obligations are **fulfilled before marking work Done**
+4. Team treats transparency as **moral obligation**, not risk management
+
+**The ethical failure is rarely the shortcut itself.**  
+**It is allowing uncertainty to persist in a way that transfers harm to people who did not agree to carry it.**
 
 ---
 
-## Declared Ethical Trade-offs and Unresolved Uncertainty
+### Quick DoD Check for Technical Disclosure
 
-Use this table to make ethical risk visible **before it becomes normalised**.
+Before marking work "Done," ask:
 
-| Area of concern | What uncertainty or harm is being introduced? | Who may bear the consequences? | Is this disclosed to them? | Steward / owner | Ethical status |
-|-----------------|----------------------------------------------|-------------------------------|----------------------------|-----------------|----------------|
-| Example: Accessibility | Screen reader support incomplete | Users with visual impairments | Partially (release notes) | Product | ⚠ Requires escalation |
-| Example: Financial clarity | Edge-case fees unclear | Low-income users | No | Compliance | ❌ Not acceptable |
-| Example: Maintainability | Auth logic simplified | Future maintainers | Yes (documented) | Tech lead | ✅ Acceptable with review |
+- [ ] Did we take any technical shortcuts this sprint?
+- [ ] If yes: Is there a TUR entry for each one?
+- [ ] For each TUR entry: Did we complete Gharar Assessment?
+- [ ] For Level 2-4 assessments: Did we fulfill disclosure obligations?
+- [ ] Can we honestly say affected stakeholders are informed, not surprised?
 
+**If any answer is "no"** → Work is not ethically complete.
+
+**For detailed guidance** on Technical Uncertainty Register and Gharar Assessment, see:
+- [Technical Uncertainty Register Guide](technical-uncertainty-register.md)
+- [Gharar Assessment Checklist](gharar-assessment-checklist.md)
+  
 ### Ethical status guidance
 
 - **✅ Acceptable** – uncertainty is disclosed, proportionate, stewarded, and just  
@@ -302,6 +346,39 @@ If proceeding would:
 - transfer risk without consent  
 
 then the work is **not ethically complete**, regardless of delivery pressure.
+
+---
+
+## For Teams Adopting Technical Disclosure
+
+If your team has adopted the **Ihsan Agile Product Steward (IAPS)** role and **Technical Uncertainty Register**:
+
+### Phase 1: Foundation (Sprints 1-2)
+**Add to DoD:**
+- [ ] Technical shortcuts documented in TUR (if any taken this sprint)
+
+**This establishes:** Immediate documentation habit
+
+### Phase 2: Assessment (Sprints 3-4)
+**Add to DoD:**
+- [ ] Gharar Assessment completed for TUR entries affecting stakeholders
+- [ ] Disclosure level identified (Document/Inform/Consult/Consent)
+
+**This establishes:** Understanding of ethical risk in technical decisions
+
+### Phase 3: Full Integration (Sprint 5+)
+**Add to DoD:**
+- [ ] Disclosure obligations fulfilled before marking Done
+- [ ] Stakeholders appropriately informed/consulted based on assessment level
+- [ ] TUR maintained as transparency tool (reviewed in retrospectives)
+
+**This establishes:** Technical disclosure as standard practice, not exception
+
+### Success Indicators
+- Technical shortcuts documented same work session, not later
+- Gharar Assessments become natural part of technical decision-making
+- Stakeholders report feeling informed, not surprised
+- Team treats disclosure as fulfilling amānah, not as bureaucracy
 
 ---
 
@@ -356,7 +433,8 @@ If it takes hours, criteria are too vague or process is too heavy.
 ## What This Prevents
 
 - Shipping features that violate Islamic values
-- Creating ethical debt that harms users or team
+- Creating gharar through undisclosed technical constraints that harm users or team
+- Treating technical shortcuts as hidden "debt" instead of disclosed constraints requiring transparency
 - Compromising under pressure without conscious decision
 - Building based on assumptions rather than consultation (gharar)
 - Burnout from unsustainable pace
@@ -373,6 +451,10 @@ If it takes hours, criteria are too vague or process is too heavy.
 - Culture of iḥsān (excellence with God-consciousness)
 - Stakeholders trust that we mean what we say
 - Continuous growth (tazkiyah) in both skill and character
+- Transparent technical disclosure that builds stakeholder trust
+- Technical constraints treated as disclosed limitations, not hidden liabilities
+- Stakeholders who feel informed rather than surprised by limitations
+- Fulfillment of amānah through transparency about what we've built and its constraints
 
 ---
 
@@ -386,6 +468,10 @@ After several sprints using Ethical DoD:
 - Are we creating ethical debt? If so, is it documented, disclosed, and prioritized in our workflows?
 - Do criteria reflect actual risks in our context, or generic best practices?
 - Is DoD enabling tazkiyah (growth), or just compliance?
+- Are we documenting technical shortcuts immediately, or only when they become problems?
+- Is our Technical Uncertainty Register a transparency tool or a hidden liability list?
+- Do stakeholders learn about limitations from us, or by discovering bugs?
+- Are we treating technical disclosure as moral obligation or risk management?
 
 ---
 
