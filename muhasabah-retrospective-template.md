@@ -122,6 +122,7 @@ This retrospective embodies that cycle at the team level.
 - "Zara took time to mentor junior dev despite being busy"
 - "We consulted users before building, discovered we were solving wrong problem"
 - "Team pushed back on a feature that would've been manipulative"
+- "We documented a technical shortcut immediately in the TUR and informed stakeholders before they discovered it themselves"
 
 **IAF's role:** Draw out specifics. Not just "teamwork was good" but "*What* did we do that exemplified iḥsān?"
 
@@ -175,6 +176,16 @@ This retrospective embodies that cycle at the team level.
 - "Did we check accessibility, or assume it was fine?"
 - "Did we validate benefit (maṣlaḥah), or assume our work was valuable without checking?"
 
+**Technical Disclosure check:**
+
+If your team has adopted the IAPS role and Technical Uncertainty Register:
+
+- "Did we document technical shortcuts in the TUR as they occurred, or only when they became problems?"
+- "Did we fulfill disclosure obligations from our DoD this sprint?"
+- "Are we treating shortcuts as hidden 'debt' or as disclosed constraints requiring stakeholder transparency?"
+- "Which TUR entries needed Gharar Assessment this sprint? Did we complete them?"
+- "Did we inform or consult affected stakeholders about documented uncertainties?"
+
 **Gharar (harmful uncertainty) check:**
 
 Not all uncertainty is unethical or avoidable.
@@ -187,6 +198,7 @@ Reflect honestly:
 - "Who might be surprised by limitations in what we shipped?"
 - "Did we consult those affected, or decide on their behalf?"
 - "Where might ignorance (jahalah) persist for users or future maintainers?"
+- "Did any documented uncertainties in our TUR create ethical concerns we need to address?"
 
 The concern is not the presence of uncertainty, but whether it was allowed to
 persist in a way that creates injustice or harm.
@@ -232,7 +244,26 @@ Some uncertainty requires escalation, disclosure, or refusal — not deferral.
 - Shūrā: Who did we fail to consult?
 - Amānah: Where did we fail in stewardship (of time, people, resources)?
 
-#### Question 6: Why did we fall short?
+#### Question 6: Did we maintain transparent technical disclosure?
+
+**For teams using Technical Uncertainty Register:**
+
+**Examine TUR maintenance:**
+- How many new uncertainties did we document this sprint?
+- Did we document them immediately, or only after they caused problems?
+- Did we complete Gharar Assessments for uncertainties affecting stakeholders?
+- Did we fulfill disclosure obligations (UI warnings, stakeholder notifications)?
+- Are we treating the TUR as a transparency tool or as a hidden liability list?
+
+**Examine disclosure quality:**
+- Did stakeholders learn about limitations from us, or by discovering bugs?
+- Did we obtain consent where Gharar Assessment indicated Level 4?
+- Did we consult stakeholders where Assessment indicated Level 3?
+- Are we being honest about constraints, or hiding them until convenient?
+
+**This is amānah in practice** - fulfilling trust through transparent disclosure, not concealment.
+
+#### Question 7: Why did we fall short?
 
 **Understanding *why* is essential for real change.**
 
@@ -263,9 +294,9 @@ Some uncertainty requires escalation, disclosure, or refusal — not deferral.
 
 **Tawbah** (تَوْبَة) means repentance and commitment to change. In this context, it's the team's commitment to form better habits.
 
-**IAF prompts:**
+**IAF prompts** (with IAPS input on product-level habits if role is present):
 
-#### Question 7: What ONE habit will we start?
+#### Question 8: What ONE habit will we start?
 
 **One habit only.** Small, sustainable, concrete.
 
@@ -278,9 +309,12 @@ Some uncertainty requires escalation, disclosure, or refusal — not deferral.
 **Not helpful:** "We'll work more sustainably"  
 **Helpful:** "No one works past 6pm unless there's a genuine emergency requiring team consensus"
 
+**Not helpful:** "We'll track technical debt better"  
+**Helpful:** "Every technical shortcut gets a TUR entry within same work session, with Gharar Assessment completed before marking Done"
+
 **Choose based on:** What shortcoming from muhāsabah needs addressing most?
 
-#### Question 8: What ONE habit will we stop?
+#### Question 9: What ONE habit will we stop?
 
 **One habit to stop.** Be specific about what to eliminate.
 
@@ -289,10 +323,11 @@ Some uncertainty requires escalation, disclosure, or refusal — not deferral.
 - "Stop assuming accessibility works without testing it"
 - "Stop building features without consulting actual users first"
 - "Stop checking Slack after 7pm (except on-call rotation)"
+- "Stop treating technical shortcuts as internal 'debt' - start documenting them transparently in TUR immediately"
 
 **Test for clarity:** Could a new team member observe whether we're doing this habit?
 
-#### Question 9: Did our actions harm or disadvantage anyone — and do we owe repair?
+#### Question 10: Did our actions harm or disadvantage anyone — and do we owe repair?
 
 **Ḥuqūq al-ʿIbād Check (Rights of Others)**
 
@@ -315,7 +350,7 @@ Tawbah is not complete where the rights of others are involved until repair is m
 
 If repair is required, it must be captured as a **concrete action item** with an owner and timeline.
 
-#### Question 10: How will we know we're improving?
+#### Question 11: How will we know we're improving?
 
 **Make growth measurable:**
 
@@ -334,7 +369,7 @@ If repair is required, it must be captured as a **concrete action item** with an
 
 **IAF prompts:**
 
-#### Question 10: Should we update our Definition of Done?
+#### Question 12: Should we update our Definition of Done?
 
 **Make vague criteria specific:**
 - "Accessible" → "Tested with NVDA, keyboard-navigable, color contrast ≥4.5:1"
@@ -346,7 +381,7 @@ If repair is required, it must be captured as a **concrete action item** with an
 **Remove criteria that aren't working:**
 - If a criterion is never checked, either make it checkable or remove it
 
-#### Question 11: Should we adjust our Niyyah or approach?
+#### Question 13: Should we adjust our Niyyah or approach?
 
 **Sometimes the intention needs refinement:**
 - "We said we're serving small businesses, but we haven't talked to any" → Update approach
@@ -428,27 +463,27 @@ If repair is required, it must be captured as a **concrete action item** with an
 
 **This is tazkiyah:** Moving from assumption to consultation, from ego to humility.
 
-### Example 3: Undisclosed Ethical Risk
+### Example 3: Technical Disclosure Growth
 
 **Sprint 1 Retrospective:**
-- **Muhāsabah:** "We skipped privacy review to ship faster - we introduced undisclosed privacy risk"
-- **Recognition:** "We knew it was wrong but did it anyway because of deadline pressure"
-- **Why?** "We're afraid to push back on stakeholders"
-- **Tawbah:** "The undisclosed privacy risk is addressed immediately. We will inform affected stakeholders, clarify why privacy reviews are non-negotiable, and ensure remediation is prioritised rather than deferred."
+- **Muhāsabah:** "We took several technical shortcuts this sprint but didn't document them in TUR until the retrospective"
+- **Recognition:** "We're treating shortcuts as hidden debt instead of disclosed constraints"
+- **Why?** "Documentation feels like extra work when we're rushing"
+- **Tawbah:** "Every technical shortcut gets TUR entry immediately, same work session"
 
 **Sprint 2 Retrospective:**
-- **Muhāsabah:** "We addressed the undisclosed privacy risk immediately and had the conversation with stakeholders"
-- **Celebrate:** "Stakeholders understood when we explained the ethical risk - they support privacy reviews"
-- **Recognition:** "Our fear of pushback was unfounded"
-- **DoD Update:** "Privacy review mandatory, no exceptions"
+- **Muhāsabah:** "We documented 3 shortcuts in TUR immediately, completed Gharar Assessments"
+- **Recognition:** "One was Level 3 (Consult) - we would have shipped without stakeholder input"
+- **Celebrate:** "We consulted stakeholders, they helped us decide on acceptable trade-off"
+- **DoD Update:** "TUR entry created if shortcuts taken; Gharar Assessment completed if stakeholders affected"
 
 **Sprint 3+:**
-- Team refuses to skip privacy review even under pressure
-- Stakeholders respect the boundary
-- Team's moral courage strengthened
-- DoD becomes non-negotiable
+- Technical disclosure becomes automatic
+- Stakeholders trust the team because limitations are disclosed, not discovered
+- Less rework from surprise failures
+- Team's amānah (trustworthiness) strengthened
 
-**This is tazkiyah:** Developing moral courage through consistent practice of values.
+**This is tazkiyah:** Moving from concealment to transparency, from gharar to amānah.
 
 ---
 
@@ -540,6 +575,18 @@ If repair is required, it must be captured as a **concrete action item** with an
 - Ensures ethical examination happens
 - Holds team accountable to commitments
 
+### Muhāsabah + Technical Uncertainty Register
+**Flow:**
+- During sprint: Technical shortcuts documented in TUR
+- Retrospective: Review TUR maintenance quality and disclosure effectiveness
+- Identify patterns: Are tactical shortcuts becoming habits?
+- Update DoD: Based on learning about what requires disclosure
+
+**For teams with IAPS:**
+- IAPS presents TUR metrics and disclosure effectiveness data
+- Team reflects on whether transparency is building or eroding stakeholder trust
+- Commitments made to improve disclosure quality
+
 ---
 
 ## Facilitator Tips
@@ -601,6 +648,13 @@ If repair is required, it must be captured as a **concrete action item** with an
 - Focus on process before ethics initially
 - Gradually introduce ethical examination as safety builds
 
+### Facilitate IAPS Input When Present
+
+**If team has Product Steward:**
+- IAPS presents TUR review before ethical accounting
+- IAPS shares stakeholder feedback on disclosure effectiveness
+- IAPS helps team understand patterns in technical shortcuts
+- IAF and IAPS co-facilitate without IAF losing facilitation authority
 ---
 
 ## Seasonal Adaptations
@@ -636,6 +690,8 @@ If repair is required, it must be captured as a **concrete action item** with an
 - Team can articulate how work serves maṣlaḥah
 - Moral courage increases (team pushes back on harmful work)
 - Team celebrates character growth, not just skill improvement
+- Technical shortcuts are documented immediately, not after they cause problems
+- Stakeholders report feeling informed, not surprised, by limitations
 
 **❌ Muhāsabah isn't working when:**
 - Retrospectives feel like box-checking
