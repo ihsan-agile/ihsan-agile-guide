@@ -19,7 +19,7 @@ jobs:
 
       - name: Fetch Zenodo downloads and update badge.json
         run: |
-          RECORD_ID="17794838"
+          RECORD_ID="17794837"
           API="https://zenodo.org/api/records/${RECORD_ID}"
 
           DL=$(curl -sL "$API" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('stats',{}).get('unique_downloads', d.get('stats',{}).get('downloads',0)))")
