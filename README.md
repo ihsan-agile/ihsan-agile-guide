@@ -1,6 +1,6 @@
 # Ihsan Agile Framework
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17794838.svg)](https://doi.org/10.5281/zenodo.17794838)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17794837.svg)](https://doi.org/10.5281/zenodo.17794837)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 **Embedding Islamic Values in Agile Delivery**
@@ -133,18 +133,17 @@ Published with DOI: [10.5281/zenodo.17794838](https://doi.org/10.5281/zenodo.177
 
 **Citation:**
 
-Version 1.0 of *The Ihsan Agile Guide* is archived on Zenodo and should be cited as follows.  
-Version 1.1 will be deposited as a new Zenodo version on 1 Shaʿbān 1447 AH / January 20, 2026 CE.
+Version 1.0 of *The Ihsan Agile Guide* is archived on Zenodo.
+Version 1.1 was deposited as a new Zenodo version on 1 Shaʿbān 1447 AH / January 20, 2026 CE. It is cited as follows:
 
 ```bibtex
-@techreport{wallace-hare2025ihsan,
+@techreport{wallace-hare2026ihsan,
   author = {Wallace-Hare, David},
   title = {The Ihsan Agile Guide: Embedding Islamic Values in Agile Delivery},
-  year = {2025},
-  institution = {PlaceBased Agile},
-  doi = {10.5281/zenodo.17794838},
-  url = {https://doi.org/10.5281/zenodo.17794838},
-  note = {Version 1.0}
+  year = {2026},
+  doi = {10.5281/zenodo.17794837},
+  url = {https://doi.org/10.5281/zenodo.17794837},
+  note = {Version 1.1}
 }
 ```
 ## Independent Evaluation
