@@ -1330,4 +1330,4 @@ Creative Commons Attribution-ShareAlike 4.0 International
 
 ---
 
-*Version 1.1 - Updated December 2024 to reflect the shift from technical debt to technical disclosure*
+*Version 1.1 - Updated January 2026 to reflect the shift from technical debt to technical disclosure*
