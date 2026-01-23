@@ -694,7 +694,7 @@ Create a "Technical Uncertainty" issue type with custom fields for all component
 
 ---
 
-## Integration with Agile Ceremonies
+## Integration with Agile Events
 
 ### Sprint Planning
 
