@@ -5,9 +5,11 @@ An ethical assessment tool for technical uncertainty and disclosure
 
 ## Purpose
 
-This checklist helps teams evaluate **technical uncertainty introduced by delivery decisions**, using *gharar* as a **juristic lens** drawn from Islamic commercial jurisprudence.
+This checklist is grounded in Islamic commercial jurisprudence and helps teams evaluate **technical uncertainty introduced by delivery decisions**, using *gharar* as a **diagnostic heuristic for undisclosed or unjust uncertainty**.
 
-The focus of this register is **not technical debt as such**, but whether uncertainty created by technical decisions has been:
+In this context, gharar is not treated as a legal ruling or moral verdict, but as a warning concept that signals heightened ethical risk.
+
+The focus of this checklist is **not technical debt as such**, but whether uncertainty created by technical decisions has been:
 
 - adequately disclosed
 - responsibly stewarded
@@ -185,7 +187,7 @@ Consent without knowledge does not remove gharar.
 ---
 
 ## Uncertainty Classification
-Using gharar as a juristic heuristic
+Using gharar as a diagnostic heuristic for undisclosed or unjust uncertainty
 
 Select the category that best fits after completing the assessment above:
 
@@ -228,7 +230,7 @@ In Islamic commercial jurisprudence, the latter is named *gharar*,
 not as a moral verdict, but as a signal that injustice (zulm) becomes possible
 when ignorance (jahalah) is allowed to persist.
 
-This register exists to surface that distinction **early**,
+This checklist exists to surface that distinction **early**,
 while responsibility can still be held and harm avoided.
 
 ---
