@@ -172,7 +172,7 @@ Read the full evaluation: https://www.muslimopensource.org/evaluations/ihsan-agi
 
 ## Current Status
 
-**Version 1.2** published 11 Shawwāl 1447 AH / 27 March 2026
+**Version 1.2** published 10 Shawwāl 1447 AH / 29 March 2026
 
 - Fourth Pillar (*ṣidq*) added; Shariah consultation boundaries clarified; modularity guidance expanded
 - Pre-pilot phase: practices and roles are presented for exploration, not validation
