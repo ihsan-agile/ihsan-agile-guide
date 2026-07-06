@@ -45,7 +45,7 @@ This code applies to:
 ## Enforcement
 
 If you experience or witness unacceptable behavior:
-- **Contact**: getinvolved@ihsanagile.org
+- **Contact**: ihsanagile@purelymail.com 
 - **Response time**: Within 48 hours
 - **Process**: Review, investigation, appropriate action
 - **Possible actions**: Warning, temporary suspension, permanent ban
