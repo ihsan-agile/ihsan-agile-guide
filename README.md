@@ -37,16 +37,14 @@ The guide is practice-oriented and intentionally modular. Teams can try a single
 ### For Teams
 
 1. Read the [Ihsan Agile Guide (Version 1.2, 2026)](./Ihsan%20Agile%20Guide%20(Version%201.2%202026).pdf)
-2. Visit [ihsanagile.org](https://ihsanagile.org) for background and supporting resources
-3. Experiment with one small practice (e.g. a short Niyyah Check-in or a disclosure conversation) within an existing Agile event
-4. Join the [pilot programme](https://ihsanagile.org/pilot) if you are interested in contributing to shared learning
+2. Experiment with one small practice (e.g. a short Niyyah Check-in or a disclosure conversation) within an existing Agile event
+3. Let me know how it went/is going and how it might improve at [ihsanagile@purelymail.com](mailto:ihsanagile@purelymail.com)
 
 ### For Contributors
 
-1. Review our [Contributing Guidelines](https://ihsanagile.org/community)
-2. Read the framework documentation
-3. Open an [Issue](https://github.com/ihsan-agile/ihsan-agile-guide/issues), start a [Discussion](https://github.com/ihsan-agile/ihsan-agile-guide/discussions), or submit a Pull Request
-4. See [CONTRIBUTING.md](/CONTRIBUTING.md) for GitHub-specific guidance
+
+1. Open an [Issue](https://github.com/ihsan-agile/ihsan-agile-guide/issues), start a [Discussion](https://github.com/ihsan-agile/ihsan-agile-guide/discussions), or submit a Pull Request
+2. See [CONTRIBUTING.md](/CONTRIBUTING.md) for GitHub-specific guidance
 
 ## Repository Contents
 ```
@@ -190,17 +188,14 @@ We welcome contributions as *shirkah fī al-khayr* (partnership in good):
 * **Resources**: Templates, guides, training materials
 * **Scholarship**: Islamic or Agile expertise to strengthen foundations
 
-**Full guidelines**: [ihsanagile.org/community](https://ihsanagile.org/community)  
 **GitHub process**: [CONTRIBUTING.md](/CONTRIBUTING.md)
 
 Contributors will be acknowledged in documentation. Significant contributions may be recognised as co-authors in future versions.
 
 ## Community
 
-* **Website**: [ihsanagile.org](https://ihsanagile.org)
 * **Discussions**: [GitHub Discussions](https://github.com/ihsan-agile/ihsan-agile-guide/discussions)
-* **Email**: [getinvolved@ihsanagile.org](mailto:getinvolved@ihsanagile.org)
-* **Pilot Programme**: [Apply here](https://ihsanagile.org/pilot)
+* **Email**: [ihsanagile@purelymail.com](mailto:ihsanagile@purelymail.com)
 
 ## License
 
