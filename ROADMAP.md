@@ -207,7 +207,7 @@ We commit to:
 
 ## How You Can Influence This Roadmap
 
-**Pilot organisations:** Your experiences will directly inform framework refinements, especially regarding the IAPS role and Technical Disclosure practices — join the [pilot programme](https://ihsanagile.org/pilot)
+**Pilot organisations:** Your experiences will directly inform framework refinements, especially regarding the IAPS role and Technical Disclosure practices (let me know if you want guidance at [ihsanagile@purelymail.com](mailto:ihsanagile@purelymail.com)
 
 **Product Owners/Product Managers:** We especially welcome your perspective on the IAPS role and whether it addresses real gaps in conventional frameworks
 
@@ -223,7 +223,7 @@ We commit to:
 
 **Shariah scholars/board members:** Help us understand how IAPS complements (or conflicts with) existing governance structures
 
-Join the conversation in [GitHub Discussions](../../discussions) or email getinvolved@ihsanagile.org
+Join the conversation in [GitHub Discussions](../../discussions) or email [ihsanagile@purelymail.com](mailto:ihsanagile@purelymail.com)
 
 ---
 
